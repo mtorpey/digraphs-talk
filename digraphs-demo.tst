@@ -70,9 +70,13 @@ gap> DigraphByAdjacencyMatrix([
 
 # Random digraph
 gap> RandomDigraph(30);
+<immutable digraph with 30 vertices, 749 edges>
 gap> RandomDigraph(50, 0.2);
+<immutable digraph with 50 vertices, 502 edges>
 gap> RandomDigraph(IsConnectedDigraph, 1000, 0.75);
+<immutable digraph with 1000 vertices, 750346 edges>
 gap> RandomDigraph(IsHamiltonianDigraph, 70, 1/2);
+<immutable digraph with 70 vertices, 2529 edges>
 
 # Simple things we can find
 gap> gr := Digraph([[3, 5, 2, 2], [3], [], [5, 2, 5, 3], []]);
@@ -94,13 +98,15 @@ true
 gap> DigraphDiameter(gr);
 3
 gap> DigraphShortestDistances(gr);
-[ [ 0, 1, 2, 3, 3 ], [ 3, 0, 1, 2, 2 ], [ 2, 2, 0, 1, 1 ], [ 2, 2, 2, 0, 1 ], [ 1, 1, 1, 1, 0 ] ]
+[ [ 0, 1, 2, 3, 3 ], [ 3, 0, 1, 2, 2 ], [ 2, 2, 0, 1, 1 ], [ 2, 2, 2, 0, 1 ], 
+  [ 1, 1, 1, 1, 0 ] ]
 gap> DigraphShortestDistance(gr, 2, 4);
 2
 gap> DigraphGirth(gr);
 1
 gap> DigraphAllSimpleCircuits(gr);
-[ [ 5 ], [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 5 ], [ 2, 3, 4, 5 ], [ 2, 3, 5 ], [ 3, 4, 5 ], [ 3, 5 ], [ 4, 5 ] ]
+[ [ 5 ], [ 1, 2, 3, 4, 5 ], [ 1, 2, 3, 5 ], [ 2, 3, 4, 5 ], [ 2, 3, 5 ], 
+  [ 3, 4, 5 ], [ 3, 5 ], [ 4, 5 ] ]
 gap> IsBridgelessDigraph(gr);
 true
 gap> IsEulerianDigraph(gr);
@@ -147,22 +153,22 @@ false
 
 # Symmetric digraphs (i.e. undirected graphs)
 gap> gr := RandomDigraph(IsSymmetricDigraph, 10, 0.1);
-<immutable digraph with 10 vertices, 13 edges>
+<immutable digraph with 10 vertices, 4 edges>
 gap> IsSymmetricDigraph(gr);
 true
 gap> Splash(DotSymmetricDigraph(gr));
 gap> UndirectedSpanningTree(gr);
 fail
 gap> DigraphUndirectedGirth(gr);
-1
+infinity
 gap> DigraphSymmetricClosure(gr);
-<immutable symmetric digraph with 10 vertices, 13 edges>
+<immutable symmetric digraph with 10 vertices, 4 edges>
 gap> IsReflexiveDigraph(gr);
 false
 gap> IsTransitiveDigraph(gr);
 false
 gap> DigraphSymmetricClosure(gr);
-<immutable symmetric digraph with 10 vertices, 13 edges>
+<immutable symmetric digraph with 10 vertices, 4 edges>
 
 # Multidigraphs (multiple edges)
 gap> gr := Digraph([[1, 3, 3, 4], [1, 1], [], []]);
@@ -350,11 +356,11 @@ gap> Splash(DotVertexLabelledDigraph(D));
 # Encoding digraphs
 gap> G := PetersenGraph();
 <immutable digraph with 10 vertices, 30 edges>
-gap> Print(G);
+gap> Print(G, "\n");
 DigraphFromGraph6String("IheA@GUAo")
 gap> D := BananaTree(4, 4);
 <immutable undirected tree digraph with 17 vertices>
-gap> Print(D);
+gap> Print(D, "\n");
 DigraphFromSparse6String(":Pa@?``eD?ddiH?hhmL?ll")
 gap> Sparse6String(D);
 ":Pa@?``eD?ddiH?hhmL?ll"
@@ -367,7 +373,10 @@ gap> WriteDigraphs("mygraphs", graphs);
 #I  Writing to mygraphs.ds6
 IO_OK
 gap> new := ReadDigraphs("mygraphs.ds6");
-[ <immutable digraph with 6 vertices, 24 edges>, <immutable digraph with 100 vertices, 99 edges>, <immutable digraph with 6 vertices, 30 edges>, 
-  <immutable digraph with 12 vertices, 60 edges>, <immutable empty digraph with 1000 vertices> ]
+[ <immutable digraph with 6 vertices, 24 edges>, 
+  <immutable digraph with 100 vertices, 99 edges>, 
+  <immutable digraph with 6 vertices, 30 edges>, 
+  <immutable digraph with 12 vertices, 60 edges>, 
+  <immutable empty digraph with 1000 vertices> ]
 gap> new = graphs;
 true
