@@ -1,0 +1,22 @@
+2824 messages
+598 "merge"
+| | * af37ee66 10 years ago Making borbits as slow as possible. WW - Wilf Wilson
+Remove last vestigates of US "Color" spelling variant - Wilf Wilson
+examples.gi: fix the method strongs (oops)
+Fixing tests since I've solved the troulbe. WW'
+| | | * | | | | | | 0ecc9229 9 years ago EdgeOrbitsDigraph doc, and cleanup funciton. - James Mitchell
+| * | |   d50e6368 9 years ago merg - James Mitchell
+| | * | | e79d9856 10 years ago stuf - James Mitchell
+added forgotted oper.xml
+| * eef0452d 10 years ago Fixing Dot functions to display siolated vertices. WW - Wilf Wilson
+| | * e5e47ae6 10 years ago oops - James Mitchell
+
+WW
+lint
+merg
+more
+oops
+stuf
+Chomp
+Comma
+dunno

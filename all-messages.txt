@@ -1,0 +1,2825 @@
+New workflow cancels old one (#665)
+Warnings when loading a package causes CI to fail (#666)
+kernel: make memory usage more dynamic
+ci: enable valgrind for jobs touching src/*.[hc]
+ci: remove the duplicate Ubuntu from ubuntu.yml
+doc: reflow IsOrderIdeal
+doc: fix emphasis in latt. properties
+Added requested clique and independent attributes - #634 (#655)
+Refactor Floyd-Warshall C implementation
+etc: add scripts for generating code coverage
+DigraphByEdges: better error msgs
+weights.gi: correct whitespace (#652)
+oper.xml: fix 'satsifies' typo
+Edge-weights #3: minimum spanning trees (#650)
+Refactor CI (#641)
+Fix compile warnings (#648)
+Merge pull request #646 from james-d-mitchell/main
+Merge branch 'stable-1.7'
+Checkout .github/workflows/gap.yml from main
+Update for gaplint 1.2.0
+Update for gaplint 1.2.0
+Add custom css to documentation
+cliques: some perf improvements
+Add labels to VerticesReachableFrom
+Add 2 images to doc
+Add DigraphContractEdge (#618)
+Abort if malloc fails (#627)
+Add IsModularLatticeDigraph (#629)
+Fix compiler warnings
+ci: add GAP 4.13
+ci: try to fix datastructures
+DigraphCycleBasis (#610)
+Implement IsOrderIdeal (#609)
+Merge branch 'main' into stable-1.7
+Merge branch 'stable-1.7'
+Revert "build(deps): bump codecov/codecov-action from 3 to 4"
+Revert "build(deps): bump codecov/codecov-action from 3 to 4"
+Fix Issue #617: DigraphRemoveEdge now removes appropriate edge label
+Update Joe's info
+Update versions numbers etc for v1.7.1
+Merge branch 'main' into stable-1.7
+Print empty lists with two spaces for consistency
+Update versions numbers etc for v1.7.0
+configure.ac: fix bashism in string equality test
+build(deps): bump codecov/codecov-action from 3 to 4
+Fix a typo
+build(deps): bump actions/setup-python from 4 to 5
+build(deps): bump actions/checkout from 3 to 4
+build(deps): bump actions/upload-artifact from 3 to 4
+Set up Dependabot to update GitHub Actions
+DigraphAbsorptionExpectedSteps: add tests for mutability
+Add AbsorptionExpectedSteps
+Merge branch 'stable-1.6'
+Merge pull request #601 from james-d-mitchell/linting
+Added EdgeWeightedDigraph (#575)
+lint: de-duplicate functions
+lint: combine "if"s with "elif"
+lint: replace more one line funcs with lambdas
+lint: remove unused func args
+lint: remove pointless lambdas
+lint: replace one line functions with lambdas
+etc: pass command line args to gaplint in etc/gaplint.sh
+Merge branch 'stable-1.6'
+Fix prototype warnings
+Remove references to bin/gap.sh
+Update codespell integration and fix reported issues (#599)
+ci: clean up concurrency
+ci: add codespell action
+Add codespellrc and fix some spelling mistakes
+Update version numbers etc for v1.6.3
+kernel: fix mem leaks for permutations allocated but not freed.
+ci: move checking of external planarity to gh actions
+Add immediate methods for connected and strongly connected digraphs
+PackageInfo: Maria T. is not an author
+etc: add scripts for unbinding lvars in tst
+Tests: unbind variables correctly in all files
+Testing: fix bad message output
+display.tst: Change test that relies on xpdf not being installed.
+RandomDigraphCons: ensure removed item is in list
+kernel: fix mem leaks for permutations allocated but not freed.
+ci: move checking of external planarity to gh actions
+oper: standardise UndirectedSpanningForest
+Add immediate methods for connected and strongly connected digraphs
+Tests: unbind variables correctly in all files
+Testing: fix bad message output
+DigraphAbsorptionProbabilities (#548)
+display.tst: Change test that relies on xpdf not being installed.
+RandomDigraphCons: ensure removed item is in list
+Joe Edwards is not an author
+Update version numbers etc for v1.6.2
+Merge branch 'main' into stable-1.6
+Avoid src/ prefix for GAP headers
+Use same URL as in my other packages
+Fix some typos found by codespell
+Update two M4 files, correct a comment
+Rewrite buildsystem to use Makefile.gappkg (#566)
+ci: change master to main on azure
+Merge branch 'stable-1.6'
+Update version numbers etc for v1.6.1
+Update mailmap
+Add release.toml file
+Update CI
+Change `CayleyDigraph` to use `AsSet`
+ci: add GAP stable-4.12 to matrix
+io: fix DIGRAPHS_TournamentLineDecoder
+Use compiled.h instead of src/compiled.h
+Merge branch 'stable-1.6'
+release: update .release file
+doc: fix reference to IsDigraphLatticeEmbedding
+ci: remove stale bot
+Update version numbers etc for 1.6.0
+Update mailmap and authors
+PackageInfo.g: link to Mathjax manual by default
+Merge branch 'stable-1.5'
+Add `IsDistributiveLatticeDigraph` property (#528)
+Make improvements to work related to `DIGRAPHS_IsMeetJoinSemilattice` (#556)
+Add `LatticeDigraphEmbedding` method (#538)
+Add a workaround for macOS code signing issues.
+Add Kamran to PackageInfo.g
+PackageInfo.g: link to Mathjax manual by default
+Random filters (#531)
+Merge branch 'stable-1.5'
+Update version numbers etc for 1.5.3
+Merge branch 'stable-1.5'
+Add DigraphRandomWalk with doc and tests
+doc: fix typos
+build: remove the default flag -march=native
+attr: disable edge labels if not already set in some cases
+digraph: fix String method for chains/cycles
+Merge branch 'stable-1.5'
+Prepare for v1.5.2 release
+More fixes for loading grape after digraphs
+Merge branch 'stable-1.5'
+Prepare for v1.5.1 release
+Fix compatibility with grape
+Cygwin CI: use windows-2019 explicitly (not windows-latest)
+Cygwin CI: use windows-2019 explicitly (not windows-latest)
+Merge branch 'stable-1.5'
+Some linting
+Merge branch 'stable-1.5'
+Update .codecov.yml
+Merge branch 'stable-1.5'
+CI: upload code coverage on Cygwin job
+Merge branch 'stable-1.5'
+Windows CI: replace AppVeyor by GitHub Actions
+ci: never close issues/pr with stale bot
+digraph: add AsDigraph for partial perms and fix doc
+CI: use codecov-action@v2 instead of @v1
+Add checks for upper/lower semimodular lattices (PR #375)
+Create stale.yml
+Add `OnTuplesDigraphs` and `OnSetsDigraphs`
+Merge branch 'stable-1.5'
+Fix a typo in a comment
+kernel: fix check in OutNeighbours
+prop.gd: add "condition true → property false" implications
+Use these new properties in methods
+Add DigraphHasAVertex, IsNonemptyDigraph, DigraphHasNoVertices
+Merge branch 'stable-1.5'
+Correct some stuff in the CHANGELOG
+Some small code tweaks
+prop.gd: tweak TrueMethods
+Merge branch 'stable-1.5'
+DigraphAddEdge: do not add a label if labels unset
+Added IsPermutationDigraph (PR #513)
+Remove doc/*.js and doc/*.css from the repo
+Remove vertex labels when performing edge union (PR #507)
+doc: add forgotten contributors to title page (sorry)
+Update package for v1.5.0 release
+Rearrange list of standard examples
+Update contributors
+Rename Michael Torpey → Young (and update URL)
+Small documentation tweaks
+Consolidate, clean, and add tests
+Set more properties in HaarGraph and IsCompleteBipartiteDigraph
+Restrict declaration of GeneralisedPetersenGraph
+Technical codecov change
+Revert PR #459: ExecuteDFS (generic depth first search)
+Add more tests for IsDigraphPath
+Merge branch 'stable-1.4'
+CI: disable Azure job with broken Docker container (64/master/latest)
+Avoid using SIZEOF_VOID_P, remove unsused SYS_IS_CYGWIN32
+Implemented several infinite families of graphs
+Make all chess piece example graphs consistent
+Add QueensGraph, RooksGraph, BishopsGraph
+Move KingsGraph code/doc/tests to be with KnightsGraph
+oper: add various graph products
+README: update zenodo badge to the catch all DOI
+oper: add IsDigraphPath
+utils: add DError
+Fix a typo in the error message of OnDigraphs
+examples.xml: increase consistency in capitalisation and naming
+doc: whitespace consistency
+doc: fix typos in DigraphByInNeighbours
+doc: add &MUTABLE_RECOMPUTED_ATTR; and use where possible
+doc: add &MUTABLE_RECOMPUTED_PROP; and use where possible
+doc: use &STANDARD_FILT_TEXT; where possible
+Add StackedBookGraph
+Adjust documentation of HaarGraph (PR #493)
+examples: add binary tree (PR #490)
+build: update autotools
+Fix doc references to ExecuteDFS
+Refactor Splash to increase code coverage
+Increase code coverage in display.gi
+display.tst: reinstate Splash tests
+Add Lawler and Byskov algorithms for ChromaticNumber
+Add ExecuteDFS (generic depth first search) (PR #459)
+Install `AsDigraph` methods for permutations
+changed TadpoleDigraph to TadpoleGraph and BookDigraph to BookGraph
+changed StarDigraph to StarGraph
+Merge branch 'stable-1.4'
+Add github_actions/*.g and use in GitHub Actions
+Merge branch 'stable-1.4'
+test{all/standard}.g: do not finish early
+Update problems in DigraphsTest{Standard/Extreme}, and make more flexible
+StarDigraph: use CompleteBipartiteDigraph
+Merge branch 'stable-1.4'
+Update some error messages
+Fix documented return value of DigraphsTestExtreme
+Rename the GitHub Actions workflows
+Merge branch 'stable-1.4'
+GitHub Actions: have separate workflow file for manual
+Add a .release helper script for the release system
+Add tst/teststandard.g and use as PackageInfo.g testfile
+doc: clarify wording in `IsDirectedTree`
+GitHub Actions: add 32-bit job
+Merge branch 'stable-1.4'
+PackageInfo.g: GAPDoc version is suggested, not needed
+Remove old scripts and references to AppVeyor
+CI: add macOS job
+CI: separate the job for building/uploading manual
+CI: refactor & update use of gap-actions composite actions
+Let manual be compiled without loading the package
+Merge branch 'stable-1.4'
+Fix the edge labels of Cayley digraphs
+Update version numbers, etc, for v1.4.1
+Stop combination opers from changing their arg list
+Fix DigraphMaximumMatching for custom vertex labels
+Merge branch 'stable-1.4'
+GitHub Actions: run tests daily, and allow manual dispatch
+Remove .appveyor.yml
+Merge branch 'stable-1.4'
+Stop using obsolete autoconf macros
+Add `BookDigraph` (PR #445)
+Introduce named graphs architecture (PR #404)
+Improve ViewStrings/TrueMethods for tournaments/cycle digraphs
+Set IsSymmetricDigraph for Graph6/Sparse6 digraphs
+Merge branch 'stable-1.4'
+Improve ChromaticNumber with Brooks' theorem
+Add DigraphCycle as a synonym for CycleDigraph
+attr: fix DigraphCore (issue #436)
+ViewString: special case for trees and forests
+display.gi: simplify; use StringFormatted (GAP 4.10.0 feature)
+examples.xml: fix doc ref to DigraphDisjointUnion
+Add TadpoleDigraph (PR #423)
+Add BananaTree (PR #411)
+Add LollipopGraph (PR #417)
+Add KingsGraph (PR #409)
+Add SquareGridGraph and TriangularGridGraph (PR #416)
+Add HaarGraph (PR #408)
+Merge branch 'stable-1.4'
+ci: upload compiled manuals as artifacts
+appveyor: reduce duplicated builds
+Add KnightsGraph (PR #425)
+Add StarDigraph (PR #424)
+Merge branch 'stable-1.4'
+ci: get latest package versions via the GitHub API
+Merge branch 'stable-1.4'
+Document config options (PR #420)
+Fix references to the record component `DigraphVertices` used for Digraph creation
+Copy immutable lists given to SetDigraphVertexLabels
+Codecov: fail PR status check if diff not 100% covered
+oper: add dominators algorithm
+Merge branch 'stable-1.4'
+doc: fix typo in the doc
+Codecov: replace PR comment by PR status
+ci: update GitHub actions integration
+Merge branch 'stable-1.4'
+Update .gitignore
+Resolve Issue #368 (edge-planarity... in doc)
+Update edge-addition-planarity-suite to v3.0.1.0
+Update attr.gi
+Update attr.gd
+Update digraphs.c
+Resolve Issue #413 (OutNeighbours performance)
+grape: add vertex & edge labels to Cayley digraphs
+Add Min/MaximalCommonSubdigraph
+100% code coverage in attr.gi
+attr.gi: fix <if> statement in DigraphOddGirth
+attr: remove duplicate Is{Vertex,Edge}Transitive methods
+codecov: ignore root *.g files and gap/utils.gi
+tests: shorten lines in standard files
+init: only define GRAPE variables when undefined
+Merge branch 'stable-1.4'
+CI: fix linting job
+doc: be consistent about authors/contributors
+Merge branch 'stable-1.4'
+ci: test against GAP stable-4.10 on GitHub Actions
+oper.gi: add DigraphShortestPathSpanningTree
+Record more data in ConnectivityDataForVertex
+Fix typo in doc
+Fix some weird whitespace issue
+cliques.xml: can not → cannot
+Change http→https where possible
+CHANGELOG.md: use link variables more often
+doc/main.xml: update Grape URL and fix Orb URL
+Merge branch 'master' into stable-1.4
+Fix bug in CHANGELOG.md
+Update year in README
+Update version numbers etc for v1.4.0
+Update version numbers etc for v1.4.0
+Merge branch stable-1.3
+Merge branch 'stable-1.3'
+Add VerticesReachableFrom (#379)
+doc: write 'Section <nr>' not 'section <nr>'
+Resolve issue #366
+io: always close files (resolves Issue #374)
+Resolve Issue #367
+Add ModularProduct
+README: add codecov and GitHub actions badges
+ci/coverage.py: simplify and use gap -c, not pipe
+README.md: update old link to website
+CI: rename GAP.yml → ci.yml
+CI: combine GitHub workflow files
+CI: build pushed branches, except release candidates
+Update version numbers etc for v1.3.1
+Remove some legacy code for GAP 4.9
+oper.gi: don't copy imm digraphs to add 0 vertices
+README: add codecov and GitHub actions badges
+ci/coverage.py: simplify and use gap -c, not pipe
+display.xml: fix doc for DotSymmetric*ColoredDigraph
+Remove accidental file
+README.md: update old link to website
+CI: rename GAP.yml → ci.yml
+CI: combine GitHub workflow files
+CI: build pushed branches, except release candidates
+Update version numbers etc for v1.3.1
+Remove accidental file
+Remove some legacy code for GAP 4.9
+CollapseMultipleEdges (#333)
+oper.gi: don't copy imm digraphs to add 0 vertices
+Merge pull request #355 from wilfwilson/master
+Merge branch 'stable-1.3'
+prop.gi: small improvements to IsSymmetricDigraph
+Create .codecov.yml file
+Remove links to gap-packages/Digraphs
+Update AppVeyor command
+ci: use azure pipelines
+Add GitHub actions for CI
+Fix lint issue in PackageInfo.g
+Create ci.yml
+Update URL for main NautyTracesInterface repo
+Don't say "strongly connected" for symm. digraphs
+PackageInfo.g: Update Wilf's details
+cliques: rename try -> try_ to avoid confusing clang-format
+travis: exit dependencies script more
+planar: fix RetypeBag issue
+cliques: fix out of bounds error
+C implementation of the Bron Kerbosch  (#313)
+Dot digraph colours (#330)
+Merge pull request #331 from marinaanagno/DigraphCopy
+Update gap/labels.gi
+Update gap/labels.gi
+Update gap/labels.gi
+fixed gaplint
+Added some tests
+Merge pull request #332 from fingolfin/mh/no-RetypeBag
+Remove two calls to RetypeBag from kernel extension
+Deleted old Declaration
+Changed HaveEdgeLabelsBeenAssigned to an operation rather than a filter
+Improve performance of CopyDigraph
+Made further suggested changes
+Added a DigraphByAdjacencyMatrix test example
+made requested  changes to DigraphNrLoops
+Add DigraphNrLoops
+changelog: update JDM url
+Update for v1.3.0
+Update JDM url
+Merge pull request #325 from james-d-mitchell/orientation
+attr: add StrongOrientation, Bridges, IsBridgeless
+digraph: add DigraphMutabilityFilter
+Merge branch 'stable-1.2'
+Update version numbers etc for v1.2.1
+Merge branch 'stable-1.2'
+extreme/isomorph.tst: accommodate GAP ViewString changes
+digraph.xml: accommodate GAP ViewString changes
+Merge branch 'stable-1.2'
+Revert "travis: fix NautyTracesInterface"
+Change #include "src/compiled.h" to just "compiled.h"
+buildsys: switch to find_gap.m4
+Add details of datastructures + nauty to doc + README
+oper: fix Dijkstra labels
+Merge branch 'stable-1.2'
+Revert PR #307 (accidentally merged early)
+travis: move quick job towards end of queue
+travis: skip extreme tests in --without-intrinsics job
+Merge branch 'stable-1.2'
+travis: fix NautyTracesInterface
+PackageInfo.g: break too-long line
+Update my address
+travis: build all branches except rc-v?.?.?
+CHANGELOG: mention that datastructures is now required
+travis: fix NautyTracesInterface
+docker: remove hard-wired GAP version
+PackageInfo.g: break too-long line
+folding tests
+foldings linting
+multidigraph foldings
+docker: remove hard-wired GAP version
+Update my address
+Update version numbers etc for v1.2.0
+oper: minor fix to Dijkstra
+Merge branch 'stable-1.1'
+Add DigraphMaximumMatching (#294)
+travis: only build master and stable-*.*
+Update version numbers etc for v1.1.2
+build: check for c99
+build: check for c99 (#299)
+Merge branch 'stable-1.1'
+Add DigraphDijkstraS and DigraphDijkstraST (#268)
+travis: add --without-intrinsics
+build: add --without-intrinsics configure option
+Merge branch 'stable-1.1'
+Improve String method for a digraph, to give shorter strings (PR #271)
+Update package for v1.1.1 release
+Fix bug in digraph homom. finder
+Update version to v1.2.0dev
+Update package for v1.1.0 release
+Merge branch 'stable-1.0'
+makedoc.g: accommodation VERSION -> .VERSION renaming
+Update CHANGELOG.md
+Fix doc labels
+Fix bad merge
+Rename VERSION -> .VERSION
+Fix assertion
+Fix assertion
+Merge branch 'stable-1.0'
+Allow specifying vertex colours in IsDigraphHomomorphism etc. (#283)
+No malloc bliss (#282)
+Allow user to specify automorphisms in HomomorphismDigraphsFinder (#285)
+Formatting
+homos: fix issue 284
+Make bliss return the size of the automorphism group (#278)
+Merge branch 'stable-1.0'
+Make bliss return the size of the automorphism group (#278)
+kernel: optimize OutNeighbours
+bitarray: fix compile warning
+Update package for v1.0.3 release
+oper.gi: add detail to DigraphDisjointUnion error message
+oper.gi: fix mutability bug in DigraphDisjointUnion for the union of a mutable digraph with an immutable one
+digraph.gi: SetIsEmptyDigraph in ViewString only for immutable digraphs
+Update package for v1.0.2 release
+Merge pull request #273 from wilfwilson/fix-issue-272
+digraphs.c: remove redundant code in FuncOutNeighbours
+Fix ViewString for known non-complete digraphs
+Add Dockerfile, badge, and demo notebook
+Fix issue 251
+Update package for v1.0.1 release
+oper: reinstate 3-arg DigraphAddVertices
+Fix linting problem
+Update postal and email addresses in doc and PackageInfo.g
+travis: sometimes leave out grape/nautytracesinterface
+CHANGELOG: add credit for mutable stuff
+appveyor: use digraphs-lib-0.6
+Update CHANGELOG for v1.0.0
+Update release date for v1.0.0 (again)
+Improve performance of MaximalAntiSymmetricSubdigraph
+Many small documentation improvements
+doc: link Is{Edge,Vertex}Transitive into manual
+ViewString: do not write `connected` for tournaments
+travis: use digraphs-lib-0.6
+Update release date for v1.0.0
+Fix some problems with the doc
+digraph.tst: do not assume that Grape is loaded
+Allow DigraphFrom*String to return mutable digraphs (PR #262)
+Add DigraphCartesianProduct and DigraphDirectProduct methods (#228)
+Update README.md
+Update oper.xml for mutable digraphs (PR #252)
+update constructors.xml for mutable digraphs
+Update the doc in examples.xml
+Update orbits doc for mutable digraphs (PR #253)
+Update grahom.xml
+Add InstallMethodThatReturnsDigraph
+Update grape.xml documentation (PR #255)
+Update contributors and add blurb to intro (PR #261)
+Fix bug in DotPartialOrderDigraph for mutable digraphs
+fix bliss usage message
+isomorph.gi: increase code coverage
+fixup for edge coloured automorphisms
+add edge-coloured digraph automorphism finder
+Clean up IO
+cliques.xml: fix typos
+digraph.gi: store IsLatticeDigraph in RandomLattice
+Implement fix
+Add DeclareAttributeReturnsDigraph
+Documentation update: attr.xml (#242)
+Update clique/planar doc for mutable digraphs (PR #238)
+Update doc in prop.xml for mutable digraphs
+Tweak README
+Update label doc for mutable digraphs
+cliques: digraphs have immutable cliques and independent sets
+Update doc in digraph.xml for mutable digraphs
+travis: tweak conda job name
+Merge branch 'stable-0.15'
+travis: test with GAP stable-4.11
+Merge branch 'stable-0.15'
+display: don't use architecture for VizViewers (PR #220)
+digraph.xml: document DigraphXCopyIfY
+digraph.xml: starting to deal with the documentation
+constructors.xml: populate new doc file with appropriate stuff
+labels.xml: populate with existing documentation
+Add empty labels.xml file
+examples: rearranging doc
+isomorph: checking doc
+Remove last vestigates of US "Color" spelling variant
+grape.xml: put the appropriate stuff in there
+prop: remove redundant code (because of a TrueMethod)
+doc: link IsEquivalenceDigraph
+prop: add method for IsCompleteMultipartiteDigraph
+cliques.xml: proofreading and checking
+(Re)arrange the documentation for oper
+(Re)arrange the documentation for prop
+(Re)arrange the documentation for attr
+DenseDigraphRep -> DigraphByOutNeighboursRep
+Introduce DigraphXCopyIfX
+digraph.gi: Wilf's changes for mutability and v1.0
+oper.gi: Wilf's changes for mutability and v1.0
+examples.gi: fix the method strongs (oops)
+.covignore: add io.tst for now, the profiling crashes on it
+digraph.gi: update a comment
+grahom.gi: update for mutability
+cliques.gi: update for mutability
+examples.gi: update for mutability
+io.gi: update for mutability
+prop.gi: update for mutability
+attr: add DigraphNrConnectedComponents
+labels.gi: update for mutability
+orbits.gi: update for mutability
+isomorph.gi: update for mutability
+isomorph.gi: Use{N/B} changes coloured-auto engine
+constructors.gi: update for mutability
+display.gi: update for mutability
+planar.gi: MaximalAntiSymmetricSubdigraph discards multiple edges already
+grape.gi: update DigraphAdd/RemoveEdgeOrbit for mutable
+Move Is{Vertex/Edge}Transitive from attr to prop
+Update and create some "attributes" wrt mutability
+digraph.g*: add DigraphMutableCopyIfImmutable
+doc: update consistency
+Only do SetAttribute for immutable digraphs
+Rearrange gap/{labels,digraph}.gd
+Move AsSemigroup from oper.gi to digraph.gi
+Update some copyright years in .g* files
+Begin to update package data and details for v1.0
+examples.xml: remove overfull \hbox and shorten lines
+rename: exmpl.* -> examples.*
+rename: const.* -> constructors.*
+Merge branch 'stable-0.15'
+Shorten some lambda functions where possible
+Use lambda functions where possible
+Remove IsValidDigraph
+Make digraphs immutable via MakeImmutable
+travis: merge external job with existing job
+Add DigraphCore (PR #221)
+digraph.xml: fix typo in DigraphAddEdgeOrbit
+travis: more CURL robustness
+Merge branch 'stable-0.15'
+Update package for v0.15.4 release
+travis: retry CURL to gap-system.org
+Fix tests from last committ
+homos: fix issue 222
+Add RandomLattice method. (#175)
+Add --with-external-bliss option to unvendor bliss (#225)
+Add NrSpanningTrees attribute (#224)
+homos: fix issue 222
+travis: fix conda
+Add IsDigraphCore property (PR #217)
+Fix issue 215
+Fix issue 213
+Add GeneralisedPetersenGraph function (#204)
+travis: test with external planarity
+build: add ./configure --with-external-planarity
+Implement changes
+Add documentation example and test
+Improve DigraphVertexLabels and  DigraphRemoveVertex for mutable digraphs
+Merge branch 'stable-0.15'
+travis: align coverage script with Semigroups package
+Improve DigraphOddGirth (PR #211)
+utils: fix DIGRAPHS_Dir
+Merge branch 'stable-0.15'
+travis: tweak memory
+grahom: allow premature termination in homomorphism search
+build: properly install warning flags
+Merge branch 'stable-0.15'
+travis: adjust GAP memory settings
+Merge branch 'stable-0.15'
+travis: run GAP with -o 2g
+Merge branch 'stable-0.15'
+PackageInfo.g: Wilf is also a maintainer
+Merge branch 'stable-0.15'
+digraphs.c: fix DigraphsNrEdges for range reps
+makedoc.g: Add new exmpl.xml file
+Merge branch 'stable-0.15'
+Update package for v0.15.3 release
+Merge branch 'stable-0.15'
+Fix typo in JohnsonDigraph documentation
+Fix typo in JohnsonDigraph documentation and move to exmpl.xml file
+PackageInfo: update JJ address
+attr: fix DIGRAPHS_Bipartite for isolated vertices (#199)
+Merge branch 'stable-0.15'
+Use MakeString instead of C_NEW_STRING
+Make DigraphMycielskian work more effectively with mutable/immutable digraphs
+Improve documentation for DigraphMycielskian
+Fix duplicate edges issue with DigraphMycielskian.
+fixed typo in documentation
+added DigraphMycielskian function
+Merge branch 'stable-0.15'
+Update some output in digraph.tst
+Merge branch 'stable-0.15'
+PackageInfo.g: update Max Horn's address
+Merge branch 'stable-0.15'
+doc: adjust man examples formatting for GAP master changes
+Merge branch 'stable-0.15'
+Update package for v0.15.2 release
+Merge branch 'stable-0.15'
+grahom.tst: temporarily comment two error-message tests (#195)
+Merge branch 'stable-0.15'
+prop: use mutable bool adj mat in IsHamiltonianDigraph (#192)
+add AsSemigroup method for strong semilattices of groups (#161)
+Added DigraphOddGirth function (#166)
+Merge branch 'stable-0.15'
+Implement mutable digraphs (#171)
+Update package for v0.15.1 release
+Merge pull request #181 from MTWhyte/petersen
+Merge branch 'stable-0.15'
+Merge pull request #178 from wilfwilson/fix-for-cygwin
+improved documentation formatting
+added comment on adjacency matrix
+Merge pull request #180 from MTWhyte/nr-strongly-connected-comps
+improved tests, format of function and documentation.
+changed positive to non-negative, in documentation.
+added exmpl file family. added PetersenGraph function, which returns the Petersen graph.
+added DigraphNrStronglyConnectedComponents attribute
+AppVeyor: disable 32-bit cygwin tests
+Use AppVeyor to test Digraphs on Windows
+Makefile: install cygplanarity-0.dll properly in cygwin
+init.g: update DIGRAPHS_IsGrapeLoaded version
+Merge branch 'stable-0.15'
+travis: make setup a bit more robust
+Require Orb v4.8.2
+Merge branch 'stable-0.15'
+kernel: use COUNT_TRUES_BLOCKS!
+Merge branch 'stable-0.15'
+kernel: readd COUNT_TRUES_BLOCK
+add DotHighlightedDigraph method
+cpplint: update config for 1.4.3
+Update package for 0.15.0 release
+Implemented checking for vertex/edge transitivity (#165)
+Add characteristic polynomial for a digraph (#164)
+Merge pull request #160 from james-d-mitchell/embeddings
+Merge branch 'stable-0.14'
+PackageInfo.g: add License field
+kernel: improve homomorphisms code and cleanup
+test-extreme: add test from Issue 163
+digraph: allow rationals as 2nd arg of RandomDigraph
+Merge pull request #148 from MTWhyte/shortest-path-2
+Add ShortestPath method
+tests: use new digraph6 format in most instances
+doc: use new digraph6 format in examples
+io: change to rows-based digraph6 format as in nauty
+prop.gd: Synonym -> SynonymAttr
+kernel: fix header includes
+planar: add IsPlanarDigraph and related
+planar: add copy of edge-addition-planarity-suite
+io: fix typos in doc
+prop: add synonym IsAntiSymmetricDigraph
+attr: remove some legacy weirdness
+Merge branch 'stable-0.14'
+grahom: improve DigraphColouring
+Remove empty comment lines
+Remove #T# tags in test files
+kernel: fix compile warnings
+Prepare package for v0.14.0 release
+oper: add IsDigraphColouring
+Merge branch 'stable-0.13'
+Merge pull request #146 from james-d-mitchell/remove-immutable-nodes
+oper: allow an immutable list of nodes to be removed
+homos.h: fix Issue #147 (remove x86intrin.h)
+Don't use undocumented extra args to InstallGlobalFunction
+Replace LEN_LIST by Length
+Modernize ac_find_gap.m4
+Merge branch 'stable-0.13'
+grahom.tst: remove unnecessary test that now fails in GAP master
+Have new line character at end of VERSION
+Merge branch 'stable-0.13'
+travis: only install profiling for coverage test
+travis: add job GAP-64 master, required pkgs
+travis: update from trusty to xenial
+Resolve Issue #140 (ArticulationPoints)
+Require GRAPE v4.8.1
+Require Orb v4.8.1
+travis: use GRAPE from GitHub
+Use ASS_LIST and MakeImmutable
+Merge branch 'stable-0.13'
+Remove unnecessary calls to CHANGED_BAG and SET_LEN_PLIST
+Use CONST_ADDR_OBJ where possible
+Use NEW_PLIST_IMM to create immutable plists
+Merge branch 'stable-0.13'
+Require Orb 4.7.6
+travis: stop grepping for 'fail' as a failure case
+Merge pull request #136 from ChristopherRussell/semilattice
+add method which converts semilattice digraphs to semigroups
+VERSION: No newline at end of file
+Prepare for v0.13.0 release
+Fix some extraneous whitespace
+Merge pull request #119 from ChristopherRussell/DotPreorder
+display: add dot methods for preorder and partial order digraphs
+Require GAP v4.9.0, since this is required by IO
+PackageInfo.g: update Wilf's details
+Start preparing for v0.13.0
+doc: remove extraneous whitespace from new sections
+Merge branch 'stable-0.12'
+travis: replace stable-4.9 with stable-4.10
+Use full names instead of initials in PackageInfo.g
+Merge branch 'stable-0.12'
+travis: fix issue with cURL
+Merge branch 'stable-0.12'
+Change dates to actual release date
+Update package for v0.12.2 release
+Make Graphviz engine configurable (PR #127)
+Merge branch 'stable-0.12'
+travis: update to test against GAP stable-4.9 instead of stable-4.8
+kernel: remove include of config.h
+build: remove duplicate definition of digraphs_la_CFLAGS
+utils: strip newline from start of first line of each manual test
+Update build system
+Fix incorrect 64bit check
+kernel: remove include of config.h
+build: remove duplicate definition of digraphs_la_CFLAGS
+utils: strip newline from start of first line of each manual test
+Merge pull request #120 from fingolfin/mh/buildsys
+Merge pull request #122 from fingolfin/mh/fix64
+Fix incorrect 64bit check
+Update build system
+Merge pull request #118 from james-d-mitchell/is-homomorph
+grahom: add other homomorphism checkers
+isomorph: add IsDigraphIsomorphism
+grahom: add IsDigraphHomomorphism
+isomorph: fix doc for IsDigraphAutomorphism
+Update package for v0.12.1 release
+Merge pull request #117 from james-d-mitchell/fix-issue-111
+Fix issue #111
+Merge pull request #116 from james-d-mitchell/fix-issue-112
+Resolve issue #112
+travis: use pip for cpp/gaplint
+Linting
+Remove assignments of never used vars
+Merge pull request #115 from james-d-mitchell/fix-issue-114
+Resolve Issue #114
+Update package for v0.12.0 release
+Merge branch 'stable-0.11'
+utils.gi: remove use of CONSTRUCTORS
+isomorph: add IsDigraphAutomorphism (#106)
+Merge branch 'stable-0.11'
+Merge pull request #103 from wilfwilson/fix-articulation-points
+Merge branch 'stable-0.11'
+dependencies: require IO 4.5.1
+Use C99 init for StructInitInfo
+attr: fix bug in ArticulationPoints
+add IsChainDigraph
+isomorph.tst: do not overwrite DIGARPHS_NautyAvailable
+utils: avoid using local var name 'Reset'
+Update release date of v0.11.0
+Update package for v0.11.0 release
+doc: document Bliss and NautyCanonicalDigraph
+Merge pull request #99 from james-d-mitchell/nauty
+Pass package flags to nauty
+utils: update for NautyTracesInterface
+bliss: use NautyTracesInterface if available
+Remove use of InfoWarning in PackageInfo.g
+travis: install NautyTracesInterface
+Merge branch 'stable-0.10'
+dependency: require IO 4.4.4 -> require IO 4.4.6
+Merge branch 'stable-0.10'
+travis: install prim/trans/small
+Merge pull request #96 from james-d-mitchell/autoconf
+build: properly detect __builtin_popcnt
+build: add configure option --enable-debug
+build: remove gap-debug.h
+build: add superclean make target
+Merge branch 'stable-0.10'
+PackageInfo.g: add subtitle to package
+Merge pull request #93 from mtorpey/symmetric-empty
+Enable DigraphSymmetricClosure for digraphs with no vertices
+Merge branch 'stable-0.10'
+Merge pull request #89 from wilfwilson/fix-objectify
+digraph: move DigraphType from .gd to .gi file
+digraph: change name of record components
+digraph: do not access record components in GAP code
+Merge branch 'stable-0.10'
+tests: speed up some unnecessarily slow tests
+prop: fix typo
+prop: CompleteDigraph is NOT transitive
+Merge branch 'stable-0.10'
+travis: speed up CI setup
+Merge branch 'stable-0.10'
+travis: use GAPDoc 1.6
+Merge pull request #87 from ChristopherRussell/canonicaldigraph
+CanonicalDigraph: Add the function CanonicalDigraph with doc & tests
+Merge pull request #50 from le27/is-hamiltonian-digraph
+IsHamiltonianDigraph
+HamiltonianPath
+test and examples: remove dependency on small/prim
+oper.gi: cleanup of DigraphReverseEdges
+digraphs.c: remove compiler warning
+Update package for v0.10.1 release
+travis: force Precise environment
+Fix broken links in the package
+Merge pull request #82 from wilfwilson/fix-issue-81
+digraph: fix issue 81
+Merge pull request #80 from james-d-mitchell/popcnt
+doc: fix IsDigraphWithAdjacencyFunction
+Merge pull request #79 from james-d-mitchell/symmetric
+kernel: use compiler intrinsic popcnt
+attr: improve symmetric closure digraph
+io: improve ReadDigraphs for single digraph
+Update package for v0.10.0 release
+Merge pull request #78 from fingolfin/mh/mailmap
+Add .mailmap file
+Merge pull request #73 from james-d-mitchell/cayley
+Merge pull request #77 from james-d-mitchell/clique-chromatic
+grahom: move DigraphColouring tests to right file
+attr: use CliqueNumber in ChromaticNumber
+cliques: add CliqueNumber
+Add more attributes for Cayley digraphs
+Merge pull request #76 from james-d-mitchell/tests-cleanup
+Merge pull request #75 from james-d-mitchell/kernel-fixes-and-cleanup
+Merge pull request #74 from james-d-mitchell/dot-labelled-digraph
+tests: update DigraphsTestStandard/Extreme/ManualExamples
+display: add DotVertexLabelledDigraph
+kernel: remove incorrect license statement
+kernel: correct module name in StructInitInfo
+kernel: remove unused gvar GRAPHS_C
+kernel: remove inappropriate cflag from debug make target
+kernel: fix wrong size int bug in homomorphism finder
+Merge pull request #72 from james-d-mitchell/doc-fixes
+Fix some anomalies in the doc
+Update package for v0.9.0 release
+doc: fix typo in IsCycleDigraph
+Merge pull request #71 from wilfwilson/matchings
+oper: add functions for matchings
+Merge branch 'stable-0.8'
+README.md: add autogen.sh instructions
+prop: add IsCycleDigraph (#69)
+Merge pull request #70 from james-d-mitchell/biconnected
+attr: add ArticulationPoints
+kernel: fix compiler warning
+travis: fix script in case of using released versions of dependencies
+Update package for v0.8.1 release
+Update authors and contributors
+travis: separate the suites for robustness
+README: update year and state that orb is required
+Update package for v0.8.0 release
+Merge branch 'master' into stable-0.7
+Merge pull request #67 from fingolfin/mh/StructInitInfo
+Don't set StructInitInfo members filename and isGapRootRelative
+Merge pull request #63 from wilfwilson/fix-issue-62
+Merge pull request #65 from fingolfin/mh/InitLibrary
+InitLibrary: use InitGVarFuncsFromTable, avoid NewFunctionC
+grahom: fix DigraphColouring wrt loops (Issue #62)
+Merge pull request #64 from james-d-mitchell/fix-error-cliques-finder
+cliques: fix error message
+oper: added new oper DigraphClosure
+prop.gi: removed unused local variables
+Merge branch 'stable-0.7'
+travis: update GAP compilation to use ./autogen.sh if needed
+Merge branch 'stable-0.7'
+orbits.xml: fix typo in documentation
+Merge pull request #60 from wilfwilson/bool-adj-mat-copy
+oper: add BooleanAdjacencyMatrixMutableCopy
+prop & oper: add methods related to partial order digraphs (PR #59)
+build: separate gaplint and cpplint make targets
+Update Travis build setup
+build: add format make target, and cpplint to lint make target
+travis: lint more files
+Add lint make target
+kernel: fix compiler warnings
+kernel: code formatting
+build: add debug make target
+Lint manual examples
+packageinfo: resolve issue relating to web page compilation
+Update package for v0.7.1 release
+travis: use new version of gaplint from github
+Merge pull request #53 from james-d-mitchell/fix-is-antisym
+kernel: fix bug in FuncIS_ANTISYMMETRIC_DIGRAPH
+Merge pull request #56 from wilfwilson/fix-topo-sort
+kernel: fix bug in FuncDIGRAPH_TOPO_SORT
+doc: fix reference
+Linting
+Update package for v0.7.0 release
+Merge pull request #49 from wilfwilson/improve-iso-colourings
+bliss: clarify and extend functionality and documentation
+src: automorphisms/canonical labelling for coloured multidigraphs
+src: renaming for consistency
+grahom: use colouring validator and rename for consistency
+doc: clarify that colourings are proper, as needed
+bliss: introduce DIGRAPHS_ValidateVertexPartition
+linting
+Merge pull request #48 from wilfwilson/spanning-forest
+attr: add methods for undirected spanning trees/forests
+oper: introduce IsUndirectedSpanningForest/Tree
+prop: introduce IsUndirectedForest
+orbits.xml: fix typo
+grahom: make one-argument DigraphColoring an attribute
+lint: fix whitespace around operators
+travis: coverage script accepts threshold as argument
+src: change name from Wilfred to Wilf A.
+doc: fix Log entries, whitespace, and linting style
+doc: fix typos
+oper.xml: improve documentation for IsSubdigraph
+oper.tst: make tests deterministic
+oper.tst: 100% code-coverage of oper.gi
+oper: fix Issue #46 (IsSubdigraph and multiple edges)
+io.tst: 98% code-coverage of io.gi
+attr.tst: 100% code coverage of attr.gi
+prop.tst: 100% code coverage of prop.gi
+travis: include gaplint and coverage
+travis: remove folding
+orbits.tst: 100% code coverage of orbits.gi
+grahom.tst: 100% code coverage of grahom.gi
+VERSIONS: fix release dates of 0.5.1 and 0.5.2
+update version numbers and CHANGELOG.md
+minor linting and documentation fixes
+Merge branch 'master' into stable-0.6
+Merge pull request #43 from wilfwilson/fix-asdigraph-trans
+Merge pull request #45 from gap-packages/alex-konovalov-patch-1
+Updated status
+fix: AsDigraph for a transformation and integer
+Merge pull request #38 from mtorpey/neighbours-mutable-copy
+travis: access gap-system.org by https
+prop.gd: Immediate method for IsStronglyConnectedDigraph
+.gitignore: Update
+Rename OutNeighbours{Mutable}Copy and add InNeighboursMutableCopy
+Add doi and build status to the README.md
+Remove trailing whitespace
+Fix version number in CHANGELOG.md
+Update CHANGELOG etc for release
+Set properties of Graph6/Sparse6 digraphs
+Merge pull request #37 from wilfwilson/fix-issue-23
+Fix Issue #23: DigraphMaximalCliques
+Resolve Issue #18
+Add -O3 to CXX flags and C flags in Makefile.am
+Merge pull request #36 from wilfwilson/fix-issue-17
+Fix Issue #17 (OnDigraphs)
+Merge pull request #35 from fingolfin/ReadPackage
+Lint utils.gi
+Convert ReadPackage single argument calls to two arguments
+Removing tests which fail in 32bit
+Linting and code coverage for io.*
+Updating PackageInfo.g, VERSION(S), and CHANGELOG
+Remove unnecessary 1s from header
+Format the contents of src/
+Checking manual consistency
+TEMP: remove redundant code and add more tests for IO
+Add orbits.tst file
+Code formatting for trees code
+Add more tests for DigraphColouring
+Lint, add more tests, and fix doc for edge labels
+Correct whitespace throughout package
+Move DigraphColoring (1-arg method) from 'oper' to 'grahom'
+Document AdjacencyMatrixMutableCopy
+Document IsSubdigraph
+Update CHANGELOG for v0.6, having gone through a full diff to catch everything.
+Fix mistakes in DigraphColoring
+Add names to CHANGELOG.md for CompleteMultipartiteDigraph
+Consistently use (directed) path, walk, cycle, circuit
+Merge pull request #26 from wilfwilson/dimacs
+Add IsEulerianDigraph function
+Address PR reviewer's comments
+Add support for reading and writing DIMACS files
+Standardise my name to Wilf A. Wilson
+Add CompleteMultipartiteDigraph to CHANGELOG
+Add Luke as author, credit all authors
+Modify Markus's CHANGELOG message
+Merge pull request #31 from markuspf/my-changelog
+Merge pull request #33 from markuspf/fix-edge-label-doc
+Add labels to SetDigraphEdgeLabels operations
+Add my name in more places.
+Add myself to authors in PackageInfo.g
+Add changelog
+Simplify CompleteMultipartiteDigraph
+Update EdgeLabels code, doc, and tests
+Fix SetDigraphEdgeLabels for a digraph and function
+Merge pull request #22 from markuspf/edge-labels
+Edge labels on multidigraphs are not supported
+Update documentation
+Access through OutNeighbours
+Add whitespace in error message
+Make sure edge labels are stored in mutable list
+Slightly better error messages.
+Some cleanup.
+Add helper function DIGRAPHS_InitEdgeLabels
+Documentation updates as suggested.
+Add some standard tests for edge labels
+Add tests for ReducedDigraph and edge labels
+Update tests after rewrite of ReducedDigraph
+Adapt documentation and tests for edge labels.
+Add edgelabels to ReducedDigraph
+Make manual examples pass tests
+Add labels to DigraphAddEdges
+Copy labels
+Add edge labels to DigraphRemoveEdgesNC
+Add labels to DigraphRemoveLoops
+Add edge labels to induced subgraphs
+Add SetDigraphEdgelabels using a function
+Add examples to documentation
+Bugfixing
+Add some documentation for edge labels
+Implement edge labels
+Merge pull request #29 from le27/stable-0.6
+IsUndirectedTree documentation
+IsUndirectedTree function and test
+CompleteMultipartiteDigraph (#28) including tests and doc
+Merge pull request #25 from le27/is-tree
+test error correction 3
+test error corection 2
+test file error correction
+documentation for IsDirectedTree
+Correct typo in DigraphIsHasLoops documentation
+IsDirectedTree tests added
+IsDirectedTree code correction
+rename IsTree to IsDirectedTree
+Add IsTree property
+Review and improve ChromaticNumber
+Add rudimentary ChromaticNumber function
+Update file VERSION
+Remove .hgtags file
+Updating version numbers etc for release
+Removing redundant scripts/dots.py
+Fix travis-build.sh again
+Fix travis-build.sh
+Reenable the 32-bit travis tests
+Fix 32-bit mode tests
+Remove remaining Bitbucket references
+Fix typos in CHANGELOG.md
+Add file VERSION
+Add makedoc.g
+Fix whitespace and remove unused variables
+Update VERSIONS
+Add Finn Smith as author
+Add changes to CHANGELOG.md
+Fix XML version number in PackageInfo.g
+Fix type in PackageInfo.g
+Remove old scripts
+Merge pull request #21 from mtorpey/use-new-urls
+URLs changed in doc
+PackageInfo.g URLs updated
+Ignore gh-pages dir
+Merge pull request #20 from mtorpey/add-travis-tests
+extreme/oper.tst: DigraphLayers output sorted
+Travis tests added, replacing codeship setup
+Ignore digraphs-lib
+Update README.md
+.gitignore
+Make a change to the manual examples for digraph canonical labelling. May or may not be justified.
+Change a harmless diff in the manual examples for maximal independent sets
+Change some harmless diffs in the manual examples for canonical labelling
+Change harmless diffs in manual examples for orbits
+change harmless diff in standard oper testing
+change harmless diffs in standard bliss tests
+change a harmless diff in cliques testing
+Remove unnecessary include
+change harmless diff in homomorphism tests
+change harmless diffs in bliss test
+Actually speed up the automorphism finding
+Add AdjacencyMatrixMutableCopy
+Minor performance improvement for DigraphMaximalCliques. WW
+Increase version number
+Fix seg fault caused by incorrect handling of graphs with 0 edges in DIGRAPH_SOURCE_RANGE
+Harmless diff in extreme/bliss.tst
+Updated tests now that more automorphism groups are known
+AutomorphismGroup attribute is set on creation of certain special digraphs
+Fixed one little test
+AutomorphismGroup testing - next commit will set these at creation
+Syntax warning added to codeship script
+Updated method for last. WW
+Better method for DigraphReverse. WW
+very minor change to links in PackageInfo.g
+Merge from 0.5
+Added tag 0.5-release for changeset d21777ce7aba
+fix ArchiveURL.
+Removed tag two-reps
+VERSION updated.
+update version number in PackageINfo
+minor change to CHANGELOG
+opening 0.5
+Added details to CHANGELOG for version 0.5. WW
+add missing brackets to changelog.md.
+fix dates in VERSIONS, CHANGELOG.md, PackageInfo.g and my wwwhome.
+update test script.
+merge
+A couple of extra tests to cliques.tst to exhibit my recent fixes. WW
+100% code coverage in cliques code. WW
+Orb is a dependency of Digraphs. WW
+Fixing the output of DigraphMaximalCliques. WW
+Fixing tests. WW
+Initial performance fix to cliques search. WW
+Correcting documentation. WW
+Merge. WW
+Adding IsCompleteBipartiteDigraph. WW
+32-bit checks removed
+Performance fix for IteratorOfPaths. WW
+remove long lines in c code.
+DigraphPath and IteratorOfPaths now return a pair which properly describes the path/cycle. Documented and tested. WW
+Introducing IteratorOfPaths. WW
+Tiny bit of linting. WW
+Introducing DigraphPath. WW
+codeship: now tests stable-4.8, release version, and 32-bit
+Unbind lists: added loop variables
+configure and make >> testlog.txt
+digraphs package is in 'clone' on codeship
+codeship now tries to rebuild Digraphs, not GAP
+codeship script now tests 32-bit
+tst: Unbind lists corrected and ordered
+io.tst: some iterator tests
+Fixed a new test. WW
+Initial fix to clique finding code. WW
+merge
+updating CHANGELOG, VERSION(S), and PackageInfo.g
+Added some tests
+A couple of minor doc changes
+IsClosed(file) -> file!.closed
+fixed error in WriteDigraphs.
+doc for IteratorFromDigraphFile.
+doc for DigraphFile.
+corrected the file extension of bzip2 from bzip2 to bz2.
+adding IteratorFromDigraph file.
+updating Read/WriteDigraphs to take a file instead of a string.
+adding UserHomeExpand to init.g
+Tiny spelling correction
+add back ticks to DigraphAllSimpleCircuits.
+minor tweak to release script.
+Merge from0.4.2
+Added tag 0.4.2-release for changeset 6e8beb4c6a54
+Changed CHANGELOG, VERSION, VERSIONS, and PackageInfo.g for 0.4.2.
+minor tweak to release script (deleted some dots).
+Add immediate method for DigraphGroup if AutomorphismGroup is found.
+Updating test to reflect fixed bug
+Fix for Issue #13. WW
+remove blank line.
+add the operation IsSubdigraph (meaning is the second arg a subset of the first).
+add Jan to list of authors in manual!
+Merge from0.4.1
+Added tag 0.4.1-release for changeset efb2be9f3c19
+updating version numbers, dates etc.
+opening branch 0.4.1.
+Merge from 0.4
+Added tag 0.4-release for changeset 762a3a8e930f
+update CHANGELOG.
+Merge
+CHANGELOG updated for 0.4
+removing tmp-examples.g
+removing subtitle.
+updating VERSIONS, CHANGELOG.md, PackageInfo.g, VERSIONS, release and testing script.
+codeship script no longer tries 4.8 beta
+Merge
+oper.tst fix
+Merge
+Merge
+Doc graph -> digraph
+Merge. WW
+update digraphs-lib version in release script.
+Merge. WW
+linting. jj
+Some linting. WW
+Merge
+linting.
+Some linting. WW
+Merge JohnsonDigraph
+JohnsonDigraph implemented, doc'd, tested
+Linting gap/cliques.g*. WW
+Merge
+ErrorMayQuit -> ErrorNoReturn
+Fixing some manual example errors. WW
+Merge. WW
+Removing documentation Overfull errors. WW
+fix typo in Digraph function
+Merge
+added pickling to Read/WriteDigraphs doc.
+Merge. WW
+added missing Grape function name.
+Adding CompleteSubgraphs* map to appendix. WW
+fix references to DigraphColoring.
+Merge
+remove some whitespace from IsDigraphEdge
+Merge. WW
+Making new chapter for cliques. WW
+remove conflict.
+Merge Julius's change with mine
+GRAPE Function map finished!
+Merge maxclique into use-known-autos. WW
+updated z-appA.xml. jj
+Merge. WW
+Updating error message. WW
+Fixing tests since I've solved the troulbe. WW'
+Changing the group which we use. WW
+Merge
+added greedy algorithm for DigraphColoring. jj
+Grape chapter 7 done, and chapter 8 skeleton added
+Merge
+Grape chapter 6 added to command map
+resolved Issue #12. jj
+Function map: DigraphShortestDistance updated
+merge
+- changed Jan into J. in the PackgeInfo.g
+DigraphDistanceSet bad input test added
+New DistanceDigraph test
+DigraphGroup should check whether argument is a multidigraph
+DistanceDigraph: More tests
+DistanceDigraph and DigraphDistanceSet now allow zero as distance
+-completed documentation for DistanceDigraph -added a standard test for DistanceDigraph in digraph.tst
+Fixed broken links in package - also removed trailing whitespace
+code coverage for DigraphShortestDistance. jj
+added doc for DigraphShortestDistance for two lists of vertices. jj
+Merge from use-known-autos to get fix. WW
+Fixed manual example in digraph.xml. WW
+Merge use-known-autos. WW
+Just realised a terrible flaw. WW
+Merge
+Extreme test fixed
+Merge
+added DigraphAddAllLoops documentation and tests. jj
+Merge
+adding more in the "Command map"
+DigraphShortestDistance tested and fixed
+Added code for DistanceDigraph
+IsDigraphEdge adjacency function tests added
+Merge
+DigraphShortestDistance for two lists of vertices. jj
+DigraphShortestDistance: doc written
+Sufficient manual examples. WW
+Merge
+DigraphAddAllLoops added. jj
+IsDigraphEdge: doc added
+DigraphGirth uses DigraphShortestDistance instead of matrix
+DigraphShortestDistance returns fail if unreachable
+clique.g* complete (except for removing inevitable bugs). WW
+gaplinting. jj
+improved DIGRAPH_ConnectivityDataForVertex a little bit. jj
+fixed a bug in DigraphLayers and made DigraphShortestDistances to use known automorphisms. jj
+DigraphLabel(s) return copies of the labels.
+Creating some manual examples for cliques. WW
+Documentation for independent sets function. Doc done excluding examples. WW
+Discarding the DigraphCliquesOfSize functions. WW
+Added DigraphsShortestDistance for a digraph and two vertices. jj
+store DIGRAPHS_ConnectivityData. jj
+Updating documentation. WW
+Merge
+updated DigraphLayers to store information and use the information know for a orbit representative. jj
+100% code coverage in main DIGRAPHS_BronKerbosch function. WW
+tweaking doc for all variants of IsRegularDigraph, use <C> not <K> which is for keywords.
+Supported finding all cliques. WW
+Creating the CliquesFinder function which processes args for DIGRAPHS_BronKerbosch. WW
+Merging two use-known-autos heads
+Merge new bliss from Chris's branch
+Merge
+Fix the representative returned by DIGRAPHS_TraceSchreierVector to actually be the representative, and associated changes.
+Special stopgap code for UserHomeExpand
+Rename bliss to bliss_digraphs
+Merge
+Digraph (by list and function) fixed
+Merge
+adding stub command map.
+second attempt at UserHomeExpand.
+reverting UserHomeExpand change.
+Adding appendix for Grape to Digraphs command map.
+DigraphLongestSimpleCircuit: IsAcyclic check added
+Add UserHomeExpand to the Read/WriteDigraphs
+change the CHANGELOG format slightly.
+Playing around with the pivot choice. WW
+minor tweak
+updating release and test scripts.
+Added tag 0.4-release for changeset 66a133408fe1
+updating test.py
+updating release script.
+updating CHANGELOG etc.
+updating release script, and test script.
+Merge from 0.3.2
+updating PackageInfo and release.py
+updating version in PackageInfo.g
+updating release script
+DIGRAPHS_BronKerbosch, the main function, is now complete. It remains to provide interfaces to user functions including IndependentSets functions. And tests and manual examples. WW
+End of day Friday. WW
+AllSimpleCircuits: added check for zero edges
+Merge
+LineDigraph doc tweaked
+Merge
+update DigraphStabilizers -> DIGRAPHS_Stabilizers
+Merge
+Merge
+DigraphLayers and DigraphDistanceSet don't calculate the automorphism group anymore. jj
+fix bugs in the doc.
+Touched up DistanceSet doc
+add missing doc.
+DigraphDistanceSet doc altered
+Touched up Digraph doc
+Merge
+Removed DigraphNrVertices method which SHOULD never be called
+Merge
+code coverage for IsDistanceRegularDigraph. jj
+Fixed manual example
+doc for DigraphSchreierVector.
+Test for DigraphDual
+Tests for top functions in attr.tst
+cleaning up doc for DigraphGroup.
+Merge
+a minor change to DigraphDistanceSet and some extra tests. jj
+Merge
+Merge
+Tiny change to RepresentativeOutNeighbours doc
+update the manual entry for Digraph.
+Merge
+added more tests for DigraphLayers. jj
+Merge
+move methods to correct files, and add new doc file.
+Correct label for Digraph.
+Codeship: Check for more things
+Reverting code coverage script to working version for macs
+Merge
+DigraphGroup doc altered
+Merge
+fix adjacency function.
+Merge
+fix DigraphStabilizer for non-representatives.
+Merge
+Merge
+DoubleDigraph code coverage increased
+Fixing manual example for Degeneracy in attr.xml. WW
+Merge use-known-autos into maxclique. Messy! WW
+Merge default - resolved using release script from default. WW
+Writing clique doc. WW
+some comments for DIGRAPHS_ConnectivityDataForVertex. jj
+DigraphRemoveEdgeOrbit fully tested
+update release script.
+ added references in bib file, added one more example in digraph.xml, repaired output for an example in bliss.xml
+Merge
+EdgeOrbitsDigraph and related functions: tests and fixes
+Merge
+DIGRAPHS_LocalParameters was renamed to DIGRAPH_ConnectivityDataForVertex. jj
+merge release script.
+ added documentation for DigraphGroup (digraph.xml) and constructor Digraph for a group, list, action and adjacency function (bliss.xml)
+Code coverage for my new functions in attr.gi. WW
+Checking for OutNeighbours
+More tests for digraph by function
+updating release script.
+DoubleDigraph: some more tests added
+Merge default. WW
+Cliques code now largely feature-complete. WW
+Closed branch 0.3.2
+Merge
+update release script.
+Added tag 0.3.2-release for changeset 9b8a53b96792
+updating release script.
+A little change to DoubleDigraph doc
+code-coverage-test.py updated to work on Linux
+Fixed silly test
+A new bliss test
+Reviewed CayleyDigraph
+added IsDistanceRegularDigraph. jj
+Added tag 0.3.2-release for changeset 15257df219f9
+update date in PackageInfo.g
+updating CHANGELOG etc.
+updating the release script.
+Merge
+update release script.
+Tests for Digraph(<grape graph>)
+merge
+DigraphStabilizer now works for any vertex.
+autogenerating the build files in the release script.
+ merge
+ - set FilterObj IsDigraphWithAdjacencyFunction for digraphs created using the CayleyDigraph operation - documented IsCayleyDigraph and IsDigraphWithAdjanceyFunction
+add repo tagging to script.
+EdgeOrbitsDigraph doc, and cleanup funciton.
+merge
+tests for DigraphAdd/RemoveEdgeOrbit.
+doc and fixes for DigraphAddEdgeOrbit
+introduced DIGRAPHS_LocalParameters and now use it to obtain DigraphLayers. jj
+update DigraphAdjacencyFunction and add doc for it.
+fix misspelling
+missing >
+reverse accidental changes to bliss.
+Log -> Example
+linting
+merge
+remove DigraphAction.
+documentation for RepresentativeOutNeighbours, and rearrange digraphs.gi.
+DigraphShortestDistances returns fail instead of -1
+ added tests for CayleyDigraph, BipartiteDoubleDigraph and DoubleDigraph
+Writing documentation for MaximalSymmetricSubdigraph and others, and putting in the right place. WW
+LongestSimpleCircuit added, and AllSimpleCircuits fixed for n=1
+recommenting out the line.
+Creating stub test file cliques.tst. WW
+Merge from default. WW
+Adding initial documentation for cliques code. WW
+reversing comment out line in bliss.
+Merge
+merge
+Merge
+merge from 0.3.1
+merge from defautl
+TEMPORARILY comment out line in bliss.
+Merge
+DigraphDistanceSet added. jj
+- methods for (Bipartite)DoubleDigraphs are now finished. They contain a part computing a subgroup of the automorphismgroup of the double digraph has a subgroup set.
+add method for RepresentativeOutNeighbours.
+declare local variables, and methods for last.
+DigraphAdd/RemoveEdgeOrbit.
+DigraphGirth uses known automorphisms
+add first version of EdgeOrbitsDigraph.
+Codeship script now tries loading Semigroups BEFORE Digraphs
+- repaired a stupid mistake in declaration of IsCayleyDigraph
+updating the release script.
+closing branch
+Merge from0.3.1
+updating scripts.
+commenting out broken tests, and updating test script.
+updating release script, CHANGELOG, VERSIONS, and PackageInfo.g
+updating the release script.
+linting tmp-examples.g
+Merge
+improve Digraph method when arg is a Grape graph, and update tests.
+keep the DigraphGroup in AsGraph if it is known.
+DigraphGirth tests
+Creating some stub documentation. WW
+Merge
+added colors to doc for DigraphCanonicalLabelling.
+DigraphGirth doc
+PackageInfo fix
+Merge
+fix PackageInfo.g
+Merge!
+DigraphGirth added
+add Jan to the list of authors.
+Include automorphism group into max clique. WW
+Merge
+fix tests for change to WriteDigraphs.
+merge
+- added IsCayleyDigraph category, made sure Cayley digraphs are constructed in this category.
+Merge
+Tests fixed now DigraphGroup just does vertices
+merge
+- small adaptation to BipartiteDoubleDigraph. Needs furthre review and testing, and documentation.
+Merge
+Merge
+Merge
+add DigraphGroup method for IsMultiDigraph.
+added LineDigraphs and LineUndirectedDigraphs. jj
+Tests for Diameter etc.
+Merge
+fixing whitespace in examples.
+fixing test.py to use proper devnull.
+Try using Blists in BKWithPivot. WW
+DigraphUndirectedGirth documented
+Changed name and tidied code
+Merge
+DigraphsDiameter and DigraphsGirth now working right - but with the wrong name for Girth
+(Bipartite)DoubleDigraph has been documented now.
+extreme test for DigraphLayers. jj
+merge
+- created DoubleDigraph operation.
+Update the version of digraphs-lib to 0.3 for the addition of fining graphs.
+add mode to WriteDigraphs
+update year in README.
+More. WW
+Cleaned up DigraphDegeneracyOrdering and BK-algorithm with ordering. WW
+DigraphLayers now uses known automorphisms. jj
+End of work Tuesday. Working on DegeneracyOrdering. WW
+attr.tst runtime back down
+Chomp
+Merge
+BindGlobal for DIGRAPHS_DiameterAndGirth
+merge
+fixing up CayleyDigraph.
+attr: Using the C version of DigraphDiameter more often
+Cleaning up cliques.g* files, adding functions and cleaning code. WW
+Small change to manual
+Merge
+cleaning up.
+- added operation CayleyDigraph, referring to one of the constructors - documented this operation
+Merge
+Abstracted DigraphDiameter and DigraphGirth
+Removed old ErrorMayQuit definition from init.g
+Merge
+Useless implementation of DigraphLayers. jj
+Merge
+cleaning up the attributes for known autos etc.
+inserted examples in the test file
+Pickle method added for graphs - INCOMPLETE
+Merge default into maxclique. WW
+documentation for Is(In/Out)RegularDigraphs. jj
+Merge
+improved code coverage for digraphs.gi. jj
+linting
+Merge
+Adding DigraphAdjacencyFunction and IsDigraphEdge method for 2 vertices rather than an edge.
+Merge
+set DigraphGroup for a dual if it's known. jj
+Reviewing In/OutDegreeSequence for known autos
+merge
+fixing the whitespace in the manual.
+forgot to sort In/OutDegreeSequences. jj
+Merge
+IsIn/OutRegularDigraph and IsRegularDigraph added. jj
+Merge
+updated the Digraph entry for list, func.
+Merge!
+codeship: don't run extreme tests 8 times
+Merge
+also for the method for Digraph with a known group of autos.
+In/OutDegreeSet documented
+added IsDigraphWithAdjacencyFunction.
+Merge
+In/OutDegreeSequence if DigraphGroup is known. jj
+merge from 0.4
+opening branch 0.4.
+Merge
+updating the release/test.py
+.comments file removed
+Merge from0.3
+proper gap version in dependencies.
+update GAP version and copyright years in PackageInfo.g
+fixing scripts/release.py
+fix date in CHANGELOG.md
+updating CHANGELOG.md, PackageInfo.g and VERSIONS.
+Merge
+Codeship tests: Extreme tests included
+Extreme test for DigraphAllSimpleCircuits
+just added an empty file to store future examples
+Merge
+Merge;
+Merge
+InDegreeSet and OutDegreeSet added. jj
+fixed the Digraph method.
+Adding a manual example to DigraphAllSimpleCircuits. WW
+Linting. WW
+Merge 0.3. WW
+Bugfixes in DigraphAllSimpleCircuits. WW
+Documentation for DigraphAllSimpleCircuits. WW
+DigraphsAllSimpleCircuits is working. WW
+io.gi up to 97% coverage
+Another format selection test
+Tests around format selection
+more lines tested in io.gi. jj
+merge
+More lines tested
+Merge from 0.3
+Merge
+Merge
+Fixed a failing test
+padding problem in io.gi can not occur. jj
+Merge. WW
+Fixing manual example in attr.xml. WW
+Merge
+More size tests
+Merge.
+updating CHANGELOG.md, VERSION, VERSIONS.
+Merge
+Merge
+Merge. WW
+Adding some documentation for AsTransformation and correcting some other documentation. WW
+Removed unused code
+Linting gi files. WW
+Special format characters
+Merge
+Merge
+A couple of invalid size tests
+Merge
+Merge bipartite branch into 0.3. WW
+a superior shade of blue
+more fixes to the test script.
+Fixed codeship problems
+Merge 0.3. WW
+Fixing tests and clarifying definitions related to bipartite. WW
+merge
+remove unnecessary files from the archive.
+reverting accidental change
+Empty strings should not specify graphs
+Merge 0.3. WW
+ReadDigraphs tests complete
+DigraphBicomponents, and updated DigraphColoring to bipartite code. Doc and tests. WW
+merge
+added utils.tst. jj
+release script is working!!
+improved the code coverage of display.tst, parts of Splash are still not covered. jj
+Merge
+added basic test for DigraphAllSimpleCircuts. jj
+Characters to help identify which test is failing
+Initial integration of IsBipartiteDigraph, with doc and partial tests. WW
+Merge
+codeship.sh to check for WARNING e.g. in DigraphsMakeDoc
+Merge
+Merge 0.3 into bipartite. WW
+grahom.gi code coverage is now 100%. jj
+codeship script using GAP-dev and GAP 4.8
+update test script help text.
+Merge
+fixing the the bugs. jj
+adding the release script.
+Merge
+fix grahom.xml manual examples
+codeship script updated for Semigroups and Grape loaded/not loaded
+Merge
+fixed extreme tests. jj
+Merge
+Add test.py script.
+Dummy change to trigger codeship
+codeship script added
+merge
+fix doubly declared local variable in DigraphAllSimpleCircuits.
+Updated doc for colors changes
+GeneratorsOfEndomorphismMonoid: argument-checking changed
+Merge
+Fixed the 2 remaining memleaks from TestStandard
+vertex colors for all 4 variants.
+fix all compiler warnings and add vertex colors to endomorphism finding.
+adding AsTransformation for a functional digraph.
+add tests for multidigraphs.
+adding AutomorphismGroup and DigraphCanonicalLabelling with colors, and tests.
+updating the code-coverage-test.py script from semigroups
+a faster TCodeDecoder.
+applying patch from https://github.com/timtadh/goiso/commit/df605f4ceb0dca6649b29f411b30addcbd3b1ce4 to fix mem leak in bliss.
+add digraph canonical labelling with colors.
+removed extra print lines
+adding bipartite code and tests
+starting new branch
+adding DigraphAllSimpleCircuirs by Stuart Burrell.
+fixing warnings on load.
++/- working version of DigraphDiameter using the group.
+working on diameter.
+using Orb, this didn't work too well.
+working on DigraphOrbits.
+fixing the doc for DigraphDiameter
+Merge 0.3
+Try reversed degeneracy ordering
+Adding Michaels webpage. WW
+opening 0.3 branch.
+merge 0.2 into default.
+Added tag 0.2-release for changeset e3ca61e85554
+proper README link
+Added tag 0.2-release for changeset cb23cb4d368e
+fixed display of omitted tests in DIGRAPHS_TestDir
+Handling STOP_TEST correctly. WW
+fix package status
+minor change.
+Merge
+change in doc. jj
+Updated GAP version requirement. WW
+hashing removed from chapter 3
+Title page fixed
+merge
+Merge
+added ignore release-checklist.tst
+Merge
+Merge
+Adjusting README. WW
+refixed extreme tests. jj
+Chapter 8 changes
+Linting. WW
+Merge. WW
+Creating manual examples for grahom.gi functions. WW
+Merge
+fixed extreme homomorphism test. jj
+bliss.xml change
+remove the release-checklist from the repo.
+update release-checklist.
+adding release-checklist.tst
+merge
+updated VERSION and VERSIONS.
+Merge
+Changed chap6
+transatlantic synonyms.
+merge
+Merge
+Merge
+Defined walk in z-chap0
+add NDEBUG to perms.h
+Merge
+Updating output of manual examples. WW
+Merge
+Filling in TODO and getting the test times right
+Updating output of standard/grahom.tst. WW
+Moving ErrorMayQuit binding. WW
+Merge. WW
+Complete code coverage for grahom.tst. WW
+fixed degree of homos.
+merg
+adding chap0.
+path changed to walk in one part of doc
+merge
+readme, and intro to the doc.
+some manual examples. jj
+Merge
+Acknowledgements and subtitle
+merge
+adding compilation instructions to the README.md
+Merge
+Documentation for DigraphEmbedding. WW
+Merge
+Cited bliss
+Fixed a test in standard/grahom.tst. WW
+Changed the name of a subsection to avoid a label clash. WW
+Whitespace. WW
+Merge
+Making a DigraphEmbedding function. WW
+Merge
+Merge
+Merge
+Title page names updated
+removed SYS_BITS. jj
+merge
+updated CHANGELOG.md
+updating the PackageInfo.g
+Updating GPL version number in doc. WW
+Merged endos
+Merge
+Merge
+More grahom documentation. WW
+removed a TODO. jj
+Started writing intro page
+Merge
+linting read.g, and updating PackageInfo.g
+added the headers
+Merge
+Merge
+updating license reference.
+Fixing grahom.gi - I made some bad assumptions. WW
+merge
+header guards.
+lint. jj
+lint
+Merge doc changes from 0.2. WW
+Editing the last doc. WW
+Merge
+some listing.
+fixed last.
+Some linting. WW
+fixed another 2 memleaks
+Merge
+Creating all the grahom.gi functions that we want, and stubs for documentation. Now need to fill in the doc. WW
+dunno
+updating bliss to version 0.73
+fixed memleaks in free_di/graph
+merge from 0.2
+remove superflous argument from monomorphism finders.
+Merge
+monomorphisms for symmetric digraphs.
+Doc reviewed up to 4.2
+merging JJ's monomorphisms for digraphs code.
+Merge
+Chapter 2 reviewed
+Moving the test in standard/grahom.tst to before the DIGRAPHS_UnbindVariables. WW
+Merge JJ monomorphism stuff except homos.c
+Merge. WW
+Final adjustments to extreme grahom.tst. WW
+Merge
+Reviewed doc < chap 2.3
+allow non-symmetric digraphs, new tests, fixed old tests.
+Adding a test to grahom.tst. WW
+Undoing some changes which would clash with endos changes. WW
+Merge 0.2 into endos
+adding find_digraph_monos and DigraphMonomorphisms, also removing is isinjective argument from DigraphHomomorphisms.
+more comments.
+more comments and cleaning up.
+cleaning up and adding asserts etc.
+Further increasing code coverage of grahom.gi in standard test. WW
+compiles
+Reviewing AsGraph documentation .WW
+Merge
+Increasing code coverage of grahom.gi in standard test. WW
+about to remove the old code.
+Documented DigraphFamily and Type
+better size_bit_array method.
+Reverting last changeset
+Hid DigraphType and DigraphFamily from the user
+Documented AsGraph in attr.xml
+digraphs with loops work properly. And avoid id trans being added twice to GeneratorsOfEndomorphismMonoid.
+Reviewing definitions in doc. WW
+fixed test example.
+fixed bugs.
+Merge. WW
+Definitions added to doc
+Miniscule change to let me test the profiler. WW
+Changing some formatting in the test files. WW
+graphs.bib -> digraphs.bib
+Making a few changes to testinstall.tst. WW
+Remove IsSemigroupsLoaded. WW
+fixing bugs
+Merge
+Doc in utils.xml
+Merge
+Editing the doc for the line decoders in io.gi. WW
+Touching up README.md
+Changed URLs from graphs to digraphs
+merge
+homomorphisms for digraphs.
+Merge
+README converted to README.md
+Reviewing changelog. WW
+Merge
+Putting some difficult examples in extreme grahom.tst. WW
+CHANGELOG.md created
+Merge
+Reviewed DigraphByAdjacencyMatrix
+Marking up extreme/grahom.tst. WW
+More tests for grahom. Some of these might be wrong. WW
+A couple more grahom.tst. Getting to grips with stuff.
+Merge
+Opers changed to Funcs in doc
+Merge. WW
+Starting to create a few more extreme grahom.tst tests. WW
+Fixed segfault in DIGRAPH_IN_OUT_NBS. WW
+Same for testinstall.tst
+Comma
+Merge
+Documented, tested, and modified TCodeDecoder and its chums
+Unbinding variables at the end of test files. WW
+Making the code coverage tool not print out lots of gap> things. WW
+Tweaks. WW
+Rewriting the documentation for the union/join operations. WW
+Getting proper code coverage in digraph.tst. WW
+Modifying *Union functions to take arbitrarily many args, also modifying DigraphByAdjMatrix to take boolean matrices. WW
+Changing the order that .gi files are read so that ErrorMayQuit in utils.gi is read first. WW
+ErrorMayQuit is now bound if not already. WW
+Renaming the util.* files to be utils.* for consistency with Semigroups package. WW
+Merge
+Merge
+merge from 0.2
+more systematic approach in homos.c
+Merge
+Clarifying doc for DigraphEdges. WW
+Merge
+Doc for new decoders
+Adding an extra manual example for DigraphSymmetricClosure. WW
+Changing that to DIGRAPHS_OmitFromTests for consistency; everything seems to run without GRAPE now. WW
+Binding DIGRAPHS_OmitFromTestManualExamples for Digraphs can be loaded without GRAPE. WW
+Tweaking some documentation. WW
+Fixing a couple of bugs I introduced into some extreme test files
+Removing DigraphEdgeLabels from everything I can. WW
+Changing some doc 'directed graph' occurrences to 'digraph'. WW
+Adding doc to last to confirm that vertex labels are lost. WW
+Reviewing OnDigraphs for a transformation. WW
+Moved ReducedDigraph tests
+100% code coverage in bliss.tst. WW
+cleaning up, added macro.
+Merge
+Fixing bug in AutomorphismGroup for a multidigraph (it set the wrong canonical labelling). Filling out standard/bliss.tst too. WW
+Merge
+ReflexiveTransitiveClosure moved and improved
+reviewing DigraphByInNeighbours.
+Merge
+reviewing Digraph, for range, source etc.
+added comment.
+reviewing IsReachable.
+Review for binary relation stuff done
+Merge
+Updated test for OnDigraphs to accept new meaning
+Merge
+Doc for OnDigraphs, and edited MultiDigraphs
+Creating standard bliss and grahom test files. Adjusting formatting of some others. WW
+OnDigraphs should return a Digraph, not just OutNeighbours
+Linting OnDigraphs for a transformations. WW
+OnDigraphs discards all labels
+Add a degeneracy ordered version of BronKerbosch
+Functioning implementation of BronKerbosch and BronKerboschPivot
+Merge
+Adding some tests in extreme/bliss.tst. WW
+Altered OnDigraphs function (for transformations)
+Merge
+Adjusting some doc in bliss.xml. WW
+whitespace
+cleaning up doc.
+merge
+fixing doc for adding edges.
+Merge
+Added extreme test for DigraphSymmetricClosure
+Merge
+Reviewing AutomorphismGroup for non-multidigraph. WW
+merge
+linting.
+reviewing QuotientDigraph: small change to the doc.
+Merge
+Merge
+Wrote doc for DigraphSymmetricClosure and made it an attribute
+Reviewing DigraphEdgeUnion. WW
+add comment to IsAntisymmetricDigraph.
+reviewed IsAntisymmetricDigraph: slight change to the doc.
+Merge
+reviewed DigraphStronglyConnectedComponent: changed function -> operation in oper.xml, added TODO in code.
+Merge
+merge
+reviewing DigraphShortestDistances: slightly changed doc.
+Merge
+Fixed extreme/oper.tst
+reviewing DigraphDiameter, better complexity in the case that the digraph is not strongly connected.
+Merge
+Updating documentation for Read/WriteDigraphs and associated code. WW
+merge
+fixed test output in last.
+Merge
+Extreme tests added for DigraphReverseEdges
+reviewing OutNeighboursCopy, slight change to doc.
+Add a simple version of Bron Kerbosch
+slightly better error message.
+Merge
+reviewing ReducedDigraph, moved it, made it attribute, added extreme test for a dense digraph.
+Adjusting Read/WriteDigraphs. WW
+Manual examples now run for me. WW
+really fix testinstall
+merge
+updating tst structure and related functions.
+Fixing testinstall.tst. WW
+Merge
+Improved code coverage in oper.gi (98%). WW
+DigraphReverseEdge doc improved
+Changing UnprofileLineByLine() to UncoverageLineByLine()
+rearranging test dir.
+updated PackageInfo.g with new version number.
+merge from endos.
+merge
+merge from endos.
+Merging endos into 0.2. WW
+Creating branch 0.2
+Merge 0.1 into default. WW
+adding some comments to homos.c
+Fixing oper test file - all seems to run fine now. WW
+adding code-coverage-test.py script.
+merge
+Fixing tests again. WW
+missing comma
+Merge
+Fixing SetDigraphVertexLabels. Tests now run again. WW
+Merge
+Linted oper.gi
+Merge
+lint for io.gi
+Fixing typos in digraphs.gi. WW
+Making digraphs require GAP 4.7.9 (probably the next release)
+Merge
+adding new decoder declarations.
+missing commas
+Merge
+Changing a few details in the PackageInfo.g file. WW
+Add files for max clique implementation
+Merge
+Doc stub for DigraphSymmetricClosure
+Added comments file
+Added to .gaplint_ignore
+linted io.xml, removed duplicate doc.
+merge
+display.gi linted
+linting digraph.gi
+Merge. WW
+Tests and manual examples run without errors. WW
+DIGRAPHS_ pattern to be ignored by linter
+Merge
+Linted util.g*
+Merge
+cleaning up homos.c
+adding gaplint_ignore file and stubs for missing doc in digraph.xml
+attr passes linter.
+A tiny bit of linting to get me going. WW
+merge
+graph homomorphisms cleanup in GAP code, and doc.
+Fixed issue in DIGRAPH_LONGEST_DIST_VERTEX, returns INT_OBJ now instead of int. WW
+Merge
+adding TCodeDecoder.
+Fiddling with DigraphLongestDistanceFromVertex. WW
+Linting. WW
+CompleteDigraph should anti-symmetric for n > 1, as noted by Chris W. WW
+Some linting. WW
+Renaming DigraphSkeleton, documenting it, and tidying up some things. WW
+Removing DigraphLongestDistances. WW
+Introducing "DigraphSkeleton" function (needs better name) which can be used in DotDClasses in Semigroups. WW
+Merge 0.1 into endos. We only need one branch at the moment. WW
+Fixing bugs in FLOYD_WARSHALL. WW
+Fixing DigraphLongestDistances, with documentation. WW
+A quick documentation fix. WW
+Documentation for last, as well as a 'stub' for DigraphLongestDistances (which is broken)
+Introducing a 'Longest distance from vertex' function, DigraphLongestDistanceFromVertex. WW
+Continuing name change. WW
+adding DigraphLongestDistance.
+Merge in to get the name change. WW
+renaming digraphs.
+adding TournamentLineDecoder.
+Making autogen.sh a bit less verbose again. WW
+Putting test files into format for the profiler. WW
+Merge. WW
+Changing a reference to "Digraphs package" to "Graphs package" in test files. WW
+Making autogen.sh a bit more robust. WW
+Another fix for specifying partial map in the homomorphism search. The function seems to be working, however sometimes specifying a partial map makes the function slower. jj
+Merge
+bug fixed
+adding an option to search for extensions of a partially defined homomorphism. jj
+Linking in DigraphConnectedComponent. WW
+Merge. WW
+A lot of changes - reviewing doc, changes to Diameter, adding DigraphConnectedComponent. WW
+Merge
+memleak
+better performance for IS_MULTI_DIGRAPH
+Adding chooser.html and my webpage to the title page of doc. WW
+updating .hgignore.
+merge
+everything running ok.
+WW
+OnDigraphs for a digraph and a transformation. WW
+tests pass.
+can load gap
+name change from digraphs to graphs.
+Putting my correct web address into the PackageInfo.g. WW
+Merge
+Merge
+changing to Graphs.
+Merge
+Updating DigraphShortestDistances to be more sensible. WW
+merge from endos.
+making 0.1 branch
+merge.
+adding GPL, LICENSE, and README
+Merge default into endos
+Merge
+Added an option to specify a superset of the image of endos. jj
+Hacking together a DigraphDiameter function. WW
+Merge
+Fixed a bug with endomorphism code, push_condition was writing to the wrong position of change_condition. jj
+Completely fixed the schreier-sims memory leak. WW
+Counting stabilizer computers properly. WW
+Removing quo_perms related functions. WW
+Merge. WW
+Sorting out a bit of memory leak, still a bit left on first runs. WW
+Started a test file for homomorphisms. jj
+Endomorphism code optimised further! jj
+Endomorphism code seems to be working again. jj
+changing the way we alloc condition. jj
+works again on an example with 45 vertices
+Tweaked my stabilizer changes. I think my stuff works; and although the function as a whole doesn't segfault, it doesn't give the right answer. WW
+Checking for the trivial stabilizer. Untested. WW
+Merge
+Schreier-Sims isnt broken, I was being silly. Problem is when the stabilizer is trivial. WW
+Removing the free_h variable in SS as it is currently unnecessary. Now much fewer memleaks. WW
+some bug fixes in last
+Merge
+Fixing memory leaks in stabilizer calculations, but uncovering other problems. returns only 329 homomorphisms. I know what is wrong, but not why. WW
+Merge and update
+Merge
+no 8 working again. jj
+further rearranging
+cleaning up and rearranging.
+getting rid of 8 in homes.c. jj
+cleaning up the GAP level code for endos
+generally cleaning up
+oops
+it works again.
+Merge
+fixing bugs
+mallocing perm colls
+additional changes to perm struct in schreier-sims. WW
+initialising new_homos_graph on the heap not the stack..
+fixed the linking error.
+Digraphs does not load any more. WW
+Written a copy_perm_coll function. WW
+Changed UIntS deg -> extern UIntS deg and that fixed the error. WW
+More changes to Schreier-Sims. Getting 'duplicate symbol _deg' clang error. WW
+Starting to convert Schreier-Sims to new PermColl format. WW
+cleaning up, why did we start this!
+merge
+stuf
+changing pointers to pointers to being pointers. WW
+changes to perm coll functions. WW
+merge
+more
+Merge. WW
+perm coll functions changed. WW
+Merge
+add_perm_coll
+finding automorphism group.
+Merge
+PermColl
+Merge
+cleaning
+Merge.
+Remvoing and extern extern and changing the args of point_stabilizer. WW
+cleaning up
+merge
+renaming
+OrbitReps_sm -> orbit_reps, and is extern. WW
+same again. ww
+merge
+definition of point_stabilizer.
+merge
+merge
+point_stabilizer is now not static
+fixing
+renaming perm_col to perm_coll
+merge. ww
+Merge
+added PermCol struct
+merge
+preparing point_stabilizer for our new permcoll struct. ww
+included stdio.h
+updating homo_hook_print
+moved more stuff to perms.c
+commenting out
+merge
+headers
+declared new_perms in perms.h
+merge
+merge
+adding schreier-sims files. ww
+updating
+fixing perms.h
+Merge
+moving perms from homos.c
+Merge
+updating hgignore
+Splitting out the schreier sims stuff. WW
+more nonsense
+rearranging
+making everything broken
+Merge
+Updated SM version, so it would work for graphs with at most 512 vertices. jj
+Using memset in a couple of places to replace loops. WW
+Removing old code. WW
+Removed unnecessary copying of stab_gens stuff. WW
+Changed point_stabilizer to use memcpy and hence look a bit nicer. WW
+working!
+bug fixes in allocing and freeing
+trying to minimize copying, not yet working
+reset last_report
+Finally fixed the bug which increased the search tree. WW
+Debugging. WW
+Made a new GAP interface to the point_stabilizer function. WW
+making the SEARCH_HOMOS_SM not be called for now. WW
+Merge
+Merge. WW
+updating GraphHomomorphism_sm. jj
+Changing local variables in OrbitReps_md. Ww
+Merge
+more comments.
+Merge. WW
+The endos code is currently being called more than it used to. Still finding out why. But works a bit better. WW
+removing a debugging print statement. ww
+Mostly changed over to new perms. Doesn't work yet. WW
+hook is global
+compiler warnings.
+same as last
+add some reporting.
+merge
+temp commit to get James's last commit. not working currently. mid-updating to new perm type.
+fixed bug in OrbitsReps_md
+Making borbits as slow as possible. WW
+replaced GAP stabiliser by Wilf stabiliser. WW
+reverted mondays changes. WW
+Fixed bad isomorphism test
+Trying to revert Mondays changes. WW
+Trying something in SS: store inverted transversal elements to eliminate repeated inverse operations. WW
+Accidentally broke C_STAB_CHAIN in last; now fixing. WW
+Creating a point_stabilizer and FuncSTAB function in C using SS. WW
+function to convert our perms to PERM4. WW
+Merge
+added two versions of reorder vertices. jj
+starting to use stab chain in search.
+cleaning up
+working
+cleaning up. JDm
+fixed a few bugs in last schreier-sims stuff. WW
+Fixed initial bugs. C_STAB_CHAIN(<perm coll>) now returns size of group for a coll of small perms. WW
+Adding schreier_sims_stab_chain in C. segfault in add_gen_orbit_stab_chain (off by one?). WW
+adding stab chains stuff in c.
+Merge
+cleaning
+cleaning up last
+reps is global
+sizes is global.
+Mostly just changing whitespace as I read the code. WW
+Removed code duplication in schreier-sims, made add_base_point. WW
+more cleaning up
+more cleaning up
+more cleaning up
+removing old ORBIT_REPS_PERMS.
+more cleaning up
+cleaning up/compiler warnings
+Merge
+Merge
+MonomorphismGraphs added, but still don't work. jj
+cleaning up.
+adding schreier-sims gap
+Adding digraphs-dev to .hgignore
+HomomorphismGraphsRepresentatives and HomomorphsimGraphsFinder added. jj
+A bug fixed in GraphHomomorphisms_sm c version and HomomorphismGraphs added. jj
+Test fixes
+Formatting the tests in the test files. WW
+text formatting
+some more changes, Stab computations take 95% of the time.
+trying to use bitwise ops for smaller graphs.
+fixed, can't have more than 7 args to a GAP kernel func.
+trying to add rank hint.
+a bug fixed in GRAPH_HOMOS. jj
+New warning for ReadDigraphs
+not correct
+further typo still not working
+fixed seg fault, still not working though
+homomorphisms not working
+testing args in c GeneratorsOfEndomorphismMonoidAttr in GAP.
+max results
+removing EndomorphismMonoid to Semigroups.
+generalising
+gap level hooks
+bug fixes, raising med size to 512
+same as last.
+cleaning up GAP level
+1st attempt to clean up c code.
+finally working!!! Needs some cleaning up
+Merge
+Fixed IO doc
+IO test added
+Minor documentation tweak for OnDigraphs. WW
+Adjustment to DigraphEdgeUnion. WW
+Documentation for DigraphEdgeUnion. WW
+Last commit went to wrong branch. Fixing. WW
+minor changes still doesn't work
+c code sometimes returns the right answer
+fixed some bugs in c version, not yet working
+working on c version of endo code.
+Merge. WW
+Fixing bug in RandomTournament. WW
+Merge default into endos
+test timing in ms.
+undoing penultimate commit.
+further optimization.
+using bits instead of arrays of ints in ORBIT_REPS_PERMS
+and more
+some more changes.
+Plugged ReducedDigraph into doc
+Added DigraphChain standard example. Reviewing more documentation. WW
+Remember DigraphVertexLabels in DigraphDual. WW
+Updates to the documentation, changing DigraphReverseEdges a bit. WW
+working on endos.
+Removing Digraph(rec(...)) usage from manual examples. WW
+Merge. WW
+Remember DigraphEdgeLabels in InducedSubdigraph. WW
+some more changes.
+cleaning up and using automorphism group.
+edge labels.
+another bliss example.
+Correcting doc for EdgeLabels.
+test everything working when grape not loaded.
+update warning if kernel comp not available.
+making it possible to use Digraphs without grape loaded.
+Updated documentation for =
+Renaming CopyOutNeighbours to OutNeighboursCopy. WW
+Fixed manual example for OnMultiDigraphs. WW
+Check for whether the package is compiled. WW
+using blists for endomorphism finding. Much faster.
+Merge
+CopyOutNeighbours. WW
+merge
+some more cleaning up.
+Merge
+C code for DIGRAPHS_IS_REACHABLE. CopyOutNeighbours. WW
+Fixed typo. -MT
+cleaning up the code.
+Merge
+Minor change
+Tests for IsReachable, RemoveAllMultipleEdges, RemoveEdge. WW
+Merge. WW
+Documentation for DigraphRemoveEdge. WW
+add missing function
+Merge
+io version 4.4.4 update
+working on doc for multi-automorphisms.
+add my gap files
+Merge
+Removed documentation for Digraph by record. Added Digraph by 3 lists. WW
+Slight improvement to Digraph
+Merge
+Formatting
+Merge. WW
+DigraphCopy now remembers EdgeLabels. WW
+Merge
+DiSparse6String updated with OutNeighbours
+New version of Digraph. Tweaked documentation. DigraphRemoveEdge added. WW
+Documentation for total ordering. WW
+Merge. WW
+Removing redundant DIGRAPH_IN_TO_OUT_NBS function. Doc for DigraphByInNeighbours. WW
+Sparse6String now using OutNeighbours
+ReducedDigraph tests
+ReducedDigraph doc
+ReducedDigraph code done in GAP
+Starting lots of new functions. Improving code coverage. WW
+C version of \< (LT) for digraphs. WW
+Initial total ordering. Also DigraphByInNeighbours. WW
+DigraphRemoveEdges now uses OutNeighbours. Also VertexNames -> VertexLabels. WW
+Merge
+Got ReducedDigraph working
+More removing Source/Range. WW
+Quick save
+Tweaking Digraph creation functions. Removing some Source/Range stuff. WW
+Removing range/source from DotDigraph. WW
+Tiny changes to doc
+Read/WritePlainTextDigraph errors adjusted
+Read/WritePlainTextDigraph tests added
+Read/WritePlainTextDigraph doc finished
+Removing some (but not all) of the source/range stuff from oper.gi. WW
+Changing the args of DIGRAPH_OUT_NBS. WW
+Fixed horrific bug in DIGRAPH_TOPO_SORT. Also removing some DigraphSource/Range stuff. WW
+Fixing tests in last. WW
+Beginning move to one rep; changing over the C functions. WW
+Added tag two-reps for changeset c46d35b79187
+Merge
+Started Write/ReadPlainTextDigraph doc
+Merge
+Started doc for graph homomorphisms. jj
+merge
+adding more bliss doc.
+Merge. WW
+DigraphEdgeLabels preserved in DigraphRemoveVerticesNC (OutNeighbours version). WW
+Merge
+Plain-text done for one-graph-per-file.  Tests/doc to follow
+Merge. WW
+Reviewing DigraphConnectedComponents. WW
+Now digraph homomorphisms can map vertices without loops to vertices with loops. jj
+Added IsSemigroupsLoaded. jj
+Merge
+Plain-text reading and writing done, with doc
+Merge
+Updated DigraphColoring. jj
+100% test code coverage in prop.gi. WW
+DigraphHomomorphism added. jj
+EndomorphismMonoid for digraphs added. jj
+Re-instating several of James's SetDigraphEdgeLabels things. WW
+Merge. WW
+Fixing whitespace in grahom.tst. WW
+merge
+comment out some broken lines
+updating other bliss methods.
+Merge. WW
+Partially reviewing some Union functions. WW
+merge
+fixing things.
+edge labels fix.
+Merge
+A bug fixed in DigraphEndomorphisms. jj
+Reviewing IsConnectedDigraph. WW
+Fixed whitespace error in grahom.tst. WW
+Merge. WW
+Updating the digraphs C API. WW
+not yet working
+edge labels.
+Merge
+DigraphEndomorphisms should now work for digraphs with loops. jj
+Fixed writing to plain text
+DigraphByEdges: now supports empty list
+Transitive functions documentation. WW
+Modifying GRAPH_HOMOMORPHISM code to work with directed graphs. jj
+Giving absolute file path in bliss.tst, also file extension. WW
+cleaning up bliss, not yet finished.
+merge
+fixed typo in test.
+adding missing data file
+more bliss cleaning up.
+Merge
+Minor changes
+More tests for IsTransitiveDigraph. WW
+Merge. WW
+A few tests for Transitive functions. WW
+Merge
+IsReflexive: Fixed case with 0 vertices
+Reviewing DigraphCopy. WW
+Doc: got complexity stuff right
+DigraphConnectedComponents: Prefer Source to OutNeighbours
+indentation and whitespace
+correction to last
+adding some plain text string encoding and decoding functions.
+added missing doc to ReadDigraphs, renamed Write.*6 to .*6String.
+long line
+compiler warnings.
+Merge
+updating the doc
+finishing blist doc and tests for non-multi-graphs.
+Working on IsTransitiveDigraph and DigraphTransitiveClosure. WW
+Editing/reviewing documentation. Completed IsTransitiveDigraph. WW
+adding commented out defintion of graph homomorphisms/isomorphisms in latex.
+adding some doc for automorphism group.
+Merge. WW
+Optimised all C equals functions. Also added a few small C functions. WW
+IsConnectedDigraph done
+Correcting a few things from the last merge. Creating (C) DigraphNrVertices. WW
+Merge
+stuff
+C code for all versions of \= . Also fixing immutability problem in RANDOM_(MULTI_)DIGRAPH. WW
+Finishing C code for \= (two digraphs with source). WW
+Merge
+(Weakly) ConnectedComponents done in C
+Merge
+Merge. WW
+Almost finished \= for two digraphs with source. WW
+Optimising DigraphFromGraph6String. jj
+Made it so DigraphCopy would copy DigraphVertexNames as well. jj
+Merge
+Reviewed DigraphRemoveVertices. jj
+OnDigraphs for digraph with HasOutNeighbours was causing trouble with immutability. WW
+Merge. WW
+\= C method for two digraphs with out-neighbours. WW
+Reviewed DigraphAddVertices. jj
+DigraphJoin tests and doc added. jj
+Merge. WW
+Completing IsTournament. Also fixing two test errors. WW
+DigraphReverseEdges now returns  a new copy if no edges are reversed. jj
+Merge
+Small change to DigraphCopy. jj
+Merge. WW
+Changing the definition of CompleteDigraph (and updating loads of tests as a consequence) WW.
+DigraphCopy and some fixes in the test file.jj
+Removed duplicate code for DigraphEdgeUnion
+Merge
+DigraphJoin added. jj
+Oops!  Updated test too.
+Merge
+Corrected error message
+Fixing a typo in DigraphReverseEdge(s). Not reviewed it. WW
+Merge. WW
+Renaming MultidigraphEdgeUnion -> MultiDigraphEdgeUnion and adding a couple of tests. WW
+Merge
+RandomDigraph altered slightly
+Merge. WW
+Documentation and tests for DigraphFloydWarshall. WW
+Merge
+DigraphEdgeUnion added. jj
+Merge
+Reviewed Wilf's '=' function
+Sorting verts in DigraphRemoveVerticesNC as applicable. WW
+Removing zero vertices allowed in DigraphRemoveVertices. WW
+OutNeighbours version of DigraphAddEdgesNC. WW
+Adding zero vertices allowed in DigraphAddVertices. WW
+Fix to IsReflexiveDigraph. jj
+Fixed a problem with manual examples. jj
+Merge
+Tried to simplify IsReflexive for the case where we only have DigraphSource. jj
+Merge
+Tests added for Read/WriteDigraphs
+Fixed bugs reading Sparse6
+Some tests added for DigraphDisjointUnion. jj
+Updated the filters for DigraphReverseEdges. jj
+Merge
+Bug fix and tests for DigraphReverseEdge(s). jj
+DigraphHasLoops instead of HasLoops
+Merge
+Checks in WriteGraph6
+New directory tst/out for keeping output of man examples
+Merge
+More tests for DigraphPeriod. WW
+Merge
+WriteDigraphs doc: example added
+WriteDigraphs: fixed error with full paths
+Reviewing IsAperiodicDigraph. Ww
+Merge
+WriteDigraphs: Better workaround based on Markus's findings
+Merge. WW
+Mostly various documentation and tests and small fixes. WW
+WriteDigraphs: Workaround for 'big strings' bug
+The remaining methods for DigraphDisjointUnion. jj
+Merge
+Added DigraphDisjointUnion in the case where both digraphs have the same representation. jj
+Merge
+Updated WriteDigraphs doc
+Merge
+Commit before merge (tiny changes)
+Merge
+Finished DigraphReverseEdge(s) code, still needs test and documentation. jj
+WriteDigraphs using file extension to determine format, and other changes
+Making IsAcyclic/IsStronglyConnected/StronglyConnectedCompontents work intelligently with known information. WW
+Fixed typo in last. WW
+A very quick and dirty placeholder DigraphSymmetricClosure method. WW
+compiler warnings
+RandomMultiDigraph. WW
+Playing around with a RANDOM_DIGRAPH function. WW
+Initial IS_ANTISYMMETRIC_DIGRAPH function. WW
+Documentation for Add/Remove vertices. WW
+Fixing bug in IS_MULTI_DIGRAPH. WW
+Digraph Add/Remove Vertices. WW
+more graph endomorphism stuff.
+test for multidigraph automorphisms
+cleaning up DIGRAPH_AUTOMORPHISM output and fixing MULTIDIGRAPH_AUTOMORPHISM so it returns the right answer!
+multidigraph edge union
+TrueMethod for IsAcyclic => IsAntisymmetric. WW
+Merge
+Some more work on WriteDigraphs - still stuck on IO error
+Updating Error() strings to remove the trailing new line character. WW
+Further developing AsBinaryRelation and Digraph by BinaryRelation. Further tests. WW
+Improving code coverage in oper.gi. Also reviewing IsDigraphEdge. WW
+Complete test coverage for \=. WW
+Continuing to improve test coverage in digraph.gi. WW
+A few more documentation and error string tweaks. WW
+Adding/editing doc for binary relations, AddEdge(s), QuotientDigraph and others. Also making IsDigraphEdge robust and more efficient. WW
+Initial AsBinaryRelation and vice versa. Also changing file path in bliss.tst. WW
+Merge
+Making comparison checking much better. WW
+Merge
+IsDigraphEdge for a list of size 2 added. jj
+cleaning up bliss, not yet finished.
+added more types of graph to ReadDigraphs.
+Digraphs created by a number of vertices and a function.
+bliss doc stub
+Added DigraphReverseEdge, however still need IsDigraphEdge. jj
+adding empty bliss test file.
+Adding test for OutDegrees bug which JJ fixed. WW
+Documentation for DigraphPeriod. jj
+Merge
+Added DigraphPeriod and fixed OutDegrees. jj
+Test fixed in io.xml
+Updating doc to prevent failure, and improving test coverage. WW
+Merge
+Creating IsAntisymmetricDigraph. WW
+More on WriteDigraphs
+Documentation and tests for QuotientDigraph. WW
+Merge. WW
+RandomTournament(n) and related changes. WW
+Merge
+Documentation and bug fix for IsAperiodicDigraph. jj
+Implemented standard examples CompleteBipartiteDigraph(n) and CycleDigraph(n). WW
+Merge
+DigraphAddEdges. WW
+Minor change in the comparison of digraphs. jj
+Merge
+IsAperiodicDigraph added. jj
+Updating comparisons. Resolves issue #2. Also fixing nasty bug in OnDigraphs (source was not being sorted). WW
+Adding StronglyConnectedComponent of a vertex. WW
+Reviewing DigraphInEdges and DigraphOutEdges. WW
+Removing direct record usage from String and PrintString. And fixing bug. WW
+DigraphIn(Out)Edges added. jj
+Merge
+Minor change in the doc for DigraphVertexNames. jj
+Merge
+EmptyDigraph(n). WW
+Changed order of args for WriteDigraph
+Merge. WW
+Initial quick implementation of QuotientDigraph. Doc/tests next week. WW
+reorganising the doc into chapters.
+vertex names.
+minor changes to sinks/sources.
+DigraphSources and DigraphSinks done. WW
+more strings.
+minor changes to description strings, and doc.
+fixed too long line in man example.
+Merge
+graph homomorphisms are now transformations.
+More tests, documentation and tests for DigraphHasLoops. WW
+Fixing DigraphHasLoops. WW
+Renaming DigraphRelabel to OnDigraphs. WW
+Merge
+Fixing DigraphDual (source and range version). More tests. WW
+WriteDigraphs added, with automatic format choosing
+DigraphHasLoops added
+Adding tests for Digraph and making a few adjustments. WW
+Improving code coverage of tests. WW
+Fixing last. WW
+OutDegreeOfVertex and InDegreeOfVertex done. WW
+Reviewing and adjusting In and OutNeighboursOfVertex. WW
+graph endomorphisms for digraphs.
+Merge
+Multigraph automorphisms, graph homomorphisms working (but wrong answers for non-symmetric graphs).
+Merge. WW
+Combining Wilf and James implementations of InducedSubdigraph. WW
+Removed DIGRAPHS_LogCeiling, since it's not used. jj
+IsSymmetricDigraph now works for multiple edges. jj
+Merge
+Added some documentation for graph6, digraph6, sparse6 and disparse6. jj
+Merge. WW
+Adding OutDegrees, OutDegreeSequence, InDegrees, InDegreeSequence. With doc and tests. WW
+Merge
+Added tests and documentation for In/OutNeighboursOfVertex. jj
+Finishing stuff with complete digraphs. WW
+merge
+Fixing DigraphsConnectedComponents. WW
+Merge. WW
+Reviewing DigraphConnectedComponents. It needs to be fixed. WW
+Merge
+IsConnectedDigraph function - not yet working
+Making C DGTransitiveClosure functions be used by GAP. Also fixed C bug. WW
+Adding C functions DIGRAPH_(REFLEX_)TRANS_CLOSURE. WW
+Same. WW
+Added plural-ness checking to ViewString. Thus updated doc and tests. WW
+I had put a line into the wrong function. Oops! WW
+Finishing InducedSubdigraph function, tests, documentation. WW
+A few minor formatting and documentation changes. WW
+Fixing and consolidating (R)TransitiveClosure. Moving functions to relevant files. Removing tests duplicated during the huge merge. WW
+Merge. WW
+Fixing FLOYD_WARSHALL. However this breaks DGTransitiveClosure. Will fix shortly. WW
+more bliss
+quotient digraph for digraph with out neighbours
+misplaced bracket.
+Updated the documentation and tests for DGShortestDistances. But it gives the wrong answer for 2 of the tests. Will investigate tomorrow. WW
+Fixing crashing bug in FLOYD_WARSHALL (nrvertices=0 case). Function still returns wrong answer sometimes. WW
+Merging. WW
+Adding SourceAndRange version of DigraphDual. Creating little CompleteDigraph function. WW
+Merge
+c version of Floyd-Warshal.
+partially redo Floyd-Warshall
+Tests updated for new errors
+Digraphs: AllTheFunctions: usage,\nAdded uniform error strings,\n
+Merge
+C version of InNeighbours. jj
+Updating wording in my last documentation change. WW
+Merge with JJ. WW
+Changing simple digraph to non-multidigraph in documentation. WW
+OutNeighboursOfVertex added. jj
+Merge
+Merge
+Added InNeighboursOfVertex. jj
+Adding American spelling: InNeighbors, OutNeighbors. WW
+Reviewing InNeighbours and OutNeighbours, adding documentation too. WW
+Merge
+GAP version of InNeighbours added. jj
+adding initial graph homomorphism files.
+Merge
+Switch from using graphs to digraphs in bliss
+Merge
+(Weakly) ConnectedComponents method added
+ignoring tags file.
+Merge
+working on bliss.
+merge from bliss and digraph-to-multigraph
+readded accidentally deleted code.
+reverting Makefile.am and configure.ac don't forget to autogen.sh
+readding bliss stuff which accidentally overwrote
+fixed bugs in last.
+renovating c functions. Testinstall works.
+everything working
+prop.tst working
+oper.tst working
+display.tst working (one test is commented out)
+io.tst tweaks.
+digraph.tst working
+attrs.tst now working
+testinstall running ok.
+about to start revising tests
+more renaming
+lots of renaming.
+fixing bugs in last.
+updating .hgignore
+merge
+merge
+graft ignore of bliss files.
+undoing yesterday's changes.
+ignoring some files
+forgetting some bliss
+snapshot
+Creating initial InducedSubdigraph function. WW
+Adding documentation and tests for DigraphShortestDistances. WW
+A bug fix and mores tests for disparse6 format. jj
+Adapting DigraphByAdjacencyMatrix to accept the empty list. WW
+Merge
+Fixed a bug in WriteDiSparse6. jj
+Merge
+Performance tweak to IsReflexiveDigraph for source/range
+Merge
+Adding tests for io.gi. jj
+Creating IsReflexiveDigraph function. WW
+More tests and documentation in prop and attr files. WW
+Continuing adding tests for oper.tst and related changes
+Add CANONICAL_LABELING support from bliss
+Merge. WW
+Adding tests for prop.gi (done) and oper.gi (ongoing) and editing them. WW
+Add bliss, and use it to implement GRAPH_AUTOMORPHISM
+Tests for DigByAdjMatNC, PrintString and String
+Fixing bug in IsEmptyDigraph and extending. Rearranging and adding to test files. Created prop.tst
+merge
+partial quotient method defined.
+Added IsEmptyDigraph. jj
+Updating documentation for DigraphReflexiveTransitiveClosure. WW
+Updating documentation, changing DotUndirectedGraph to DotSymmetricDigraph. WW
+merge
+fixed the issue with StronglyConnectedComponents ordering c vs gap code.
+Merge
+Finished renaming ReadGraph6Line the doc. jj
+some tweaks to DigraphByAdjacencyMatrix.
+added HasSource to other method for NrEdges.
+fixed bugs in last.
+improved performance of Digraph when using nrvertices instead of vertices.
+Tests for DigraphByAdjacencyMatrix. WW
+Merge
+Fixing IsSymmetricGraph doc. Adding DigraphByAdjacencyMatrixNC. Tidying other code. WW
+Renamed Read<format>Line  to DigraphFrom<format>String. jj
+ReadDiSparse6 added, WriteDiSparse6 and ReadSparse6 fixed. jj
+cleaning up last, and fixing bugs.
+renamed IsUndirectedGraph -> IsSymmetricDigraph and improved the method.
+bumped IO version number
+added DigraphDual.
+directed graph -> digraph
+partially fixed digraph.tst
+changed DirectedGraph to Digraph in all files :)
+updated method for IsFunctionalDigraph.
+cleaning up opers after recent changes.
+Merge
+cleaned up attr.gi after intro of IsDigraphByAdjacency etc.
+slight tweak in util test file
+correct manual examples and linking in DirectedGraphReverse doc.
+introducing IsDigraphByAdjacency and IsDigraphBySourceAndRange to distinguish the way the graph was created.
+Merge
+Removed never-read variable from DirectedGraphReverse
+merge
+adding filters IsDigraphBySourceAndRange and IsDigraphByAdjacency.
+Style of IS_STRONGLY_CONNECTED C code changed to match the rest
+made TopologicalSort an attribute.
+cleaning up ReadGraph6Line, fixed bug in DirectedGraph, made IsUndirectedGraph imply IsSimpleDirectedGraph
+adding oper.tst
+renaming + DirectedGraphReverse.
+tests working again
+added forgotted oper.xml
+moving doc to correct files.
+renaming and moving things around in doc.
+adding DigraphsTestEverything.
+split out operations into oper.g*, also renamed some files.
+put properties into separate file.
+split Read/Write stuff into io.g* file.
+merge
+using nrvertices rather than vertices := [1..nrvertices] internally.
+Reversed the change in ReadSparse6Line. jj
+A first version of WriteDiSparse6Line. jj
+stack2 freed in FuncGABOW_SCC. jj
+ReadGraph6Line no longer discards the final character when k=5
+Merge
+Fixed WriteSparse6
+Some test for ReadSparse6Line. jj
+Adding tests and doc for the changes made to DigraphTopoSort. WW
+Forgot to remove debugging code. Also fixed bug in DIGRAPH_TOPO_SORT. WW
+Merge. WW
+Fixing segfault in DIGRAPH_TOPO_SORT, also DGTopoSort now works for acyclic graphs with loops
+WriteSparse6 added
+Merge
+ReadSparse6Line added. jj
+temporary fix to Adjacencies c method.
+Merge
+Making transitive closure functions work for non-acyclic functions. WW
+Merge
+A link to graph6 website added. jj
+Whitespace in SCC functions. Wilf
+Digraph6 special character changed from , to +
+ReadDigraph6Line and Write(Di)Graph6 doc added
+Fixing tests for DotDirectedGraph and DotUndirectedGraph. WW
+added simple example of ReadPlainTextDigraph.
+fixing too long examples in ReadDirectedGraphs.
+updating the doc for ReadDigraphs.
+merge
+reworked ReadDirectedGraphs stuff, added ReadPlainTextDigraph.
+Adding extra tests for DirectedGraphByEdges. WW
+Fixing Dot functions to display siolated vertices. WW
+Fixing DirectedGraphByEdges. WW
+Added a couple of tests for IsSimpleDirectedGraph. WW
+Setting RandomSimpleDirectedGraph to have IsSimpleDG = true. WW
+Merge
+Doc for ReadGraph6Line and ReadDirectedGraphs
+fixing DirectedGraphByEdges.
+sensible arrangement of code in utils.gi, fixed bug in attrs.gd
+Merge. WW
+Creating AsDirectedGraph for transformations. WW
+adding reading of grape.g*
+moving Grape methods to their own file.
+added optional number of vertices to DirectedGraphByEdges.
+merge
+adding DirectedGraphByEdges.
+Merge
+moving WriteGraph6 etc to correct file.
+Now checking if a string is a valid graph6 input in ReadGraph6Line
+merge
+too long line in IsFunctionalDirectedGraph manual example.
+whitespace and 2 extra brackets in IsFunctionalDi...
+ReadDigraph6 added
+moving code from digraphs to attrs.
+renaming DotDigraph and DotGraph so that it is possible load Viz and Semigroups/Digraphs at the same time.
+Updating doc for IsFunctionalDigraph, as per last
+Adding IsFunctionalDirectedGraph and various tests, documentation. WW
+Merge. WW
+Adding tests for Dot*raph functions. WW
+Merge
+WriteDigraph6 added
+Merge with MT changeset
+Added preliminary IsUndirectedGraph and DotGraph with doc, creating tests for some display functions. WW
+Fixed WriteGraph6 function - lots of graphs of size <=10 tested
+Adding extra tests for AdjacencyMatrix. WW
+Fixing bug in AdjacencyMatrix. WW
+Typographical adjustments in last
+Fixing AdjacencyMatrix (easier case) and updating doc example for DotDigraph. WW
+Documenting display.gi functions and DigraphByAdjMatrix
+Creating display.tst and adding first DotDigraphs test
+Adding DotDigraph and Splash functions. New display.g* files. WW
+Fixed a name in doc. WW
+Merging
+Editing DirectedGraphByAdjacencyMatrix to reject bad args
+Merge
+Removed NC from DirectedGraph call in ReadGraph6Line
+renaming opers* to attrs*
+Finished WriteGraph6, possibly with bugs
+merge
+adding test for AdjacencyMatrix.
+Merge. WW
+Creating DirectedGraphByAdjacencyMatrix. WW
+Merge
+Library of undirected graphs on 5 vertices added. jj
+adding doc for AdjacencyMatrix.
+Added tests for ReadDirectedGraphs. jj
+merge
+adding opers.g* and a method for AdjacencyMatrix.
+Polished ReadGraph6Line. jj
+merge
+spacing.
+reviewing ReadGraph6.
+MERGE
+Final C performance updates to IS_ACYCLIC_DIGRAPH and DIGRAPH_TOPO_SORT. WW
+fixed test diffs when Semigroups is loaded.
+Merge
+Add a test for the previous issue. jj
+Fixed a bug with IsSimpleDirectedGraph. jj
+Fixed tests
+Readding my changes to C file from today. WW
+ReadDirectedGraphs. jj
+initial commit after repo reboot.
